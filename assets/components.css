@@ -135,8 +135,9 @@ body[data-clinician="on"] .clinician-detail-block { display: block; }
 .tool-icon { font-size: 1rem; line-height: 1; }
 @media (max-width: 620px) {
   #device-toggle { display: none !important; }
-  .head-tools .tool-label { display: none; }
-  .head-tools .tool-btn { width: 38px; padding: 0; justify-content: center; }
+  .head-tools .tool-btn#clinician-toggle { width: auto; padding: 0 10px; }
+  .head-tools .tool-btn#clinician-toggle .tool-label { display: inline; font-size: 0.76rem; }
+  .head-tools .tool-btn#theme-toggle { width: 38px; padding: 0; justify-content: center; }
 }
 
 /* Phone layout forced on a desktop screen: narrows the column and collapses
