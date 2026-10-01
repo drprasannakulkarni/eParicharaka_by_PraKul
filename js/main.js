@@ -136,6 +136,7 @@ const deviceIcon = document.getElementById('device-icon');
 const deviceLabel = document.getElementById('device-label');
 
 function applyDevice(mode) {
+  if (!deviceBtn || !deviceIcon || !deviceLabel) return;
   const phone = mode === 'phone';
   document.body.setAttribute('data-device', phone ? 'phone' : 'laptop');
   deviceIcon.textContent = phone ? '📱' : '🖥️';
@@ -143,12 +144,14 @@ function applyDevice(mode) {
   deviceBtn.setAttribute('aria-pressed', String(phone));
 }
 
-applyDevice(localStorage.getItem('sc-device') || 'laptop');
-deviceBtn.addEventListener('click', () => {
-  const next = document.body.getAttribute('data-device') === 'phone' ? 'laptop' : 'phone';
-  localStorage.setItem('sc-device', next);
-  applyDevice(next);
-});
+if (deviceBtn) {
+  applyDevice(localStorage.getItem('sc-device') || 'laptop');
+  deviceBtn.addEventListener('click', () => {
+    const next = document.body.getAttribute('data-device') === 'phone' ? 'laptop' : 'phone';
+    localStorage.setItem('sc-device', next);
+    applyDevice(next);
+  });
+}
 
 /* theme: system by default, explicit choice remembered */
 const toggle = document.getElementById('theme-toggle');
