@@ -650,3 +650,36 @@ body[data-device="phone"] .sdock-btn { width: 44px; height: 44px; }
 [data-theme="dark"] .bodymap-zone:hover .bodymap-card-bg {
   filter: brightness(1.25) drop-shadow(0 0 12px currentColor) !important;
 }
+
+
+/* ==========================================================================
+   Universal High-Contrast Organ Cards (100% Readable in Light & Dark Mode)
+   ========================================================================== */
+.bodymap-card-bg {
+  fill: #1e293b !important;
+  stroke-width: 2.5px !important;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.35)) !important;
+  transition: all 0.2s ease;
+}
+
+.card-head .bodymap-card-bg  { stroke: #14b8a6 !important; }
+.card-ent .bodymap-card-bg   { stroke: #38bdf8 !important; }
+.card-arm .bodymap-card-bg   { stroke: #fbbf24 !important; }
+.card-chest .bodymap-card-bg { stroke: #38bdf8 !important; }
+.card-heart .bodymap-card-bg { stroke: #f87171 !important; }
+.card-gut .bodymap-card-bg   { stroke: #fb923c !important; }
+.card-vata .bodymap-card-bg  { stroke: #60a5fa !important; }
+
+.bodymap-card-title {
+  fill: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.4px !important;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+.bodymap-zone:hover .bodymap-card-bg,
+.bodymap-zone:focus-visible .bodymap-card-bg {
+  fill: #0f172a !important;
+  filter: drop-shadow(0 0 14px currentColor) !important;
+}

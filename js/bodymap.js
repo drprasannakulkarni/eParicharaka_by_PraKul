@@ -1,6 +1,6 @@
 /* Shareera Darshana 2D Anatomical Atlas View
  * Real 2D Anatomical Plates (body.webp, head.webp, gut.webp)
- * Engineered for Medical Professionals with Theme-Aware High-Contrast Typography (Light & Dark Mode).
+ * Engineered for Medical Professionals with English-Only 20px High-Contrast Organ Cards.
  */
 import { esc } from './ui.js';
 
@@ -50,120 +50,109 @@ export function bodySilhouetteSVG(counts = {}) {
       <!-- Real 2D High-Resolution Anatomical Plate Image -->
       <image href="assets/plates/body.webp" x="70" y="0" width="800" height="1800" opacity="0.98" />
 
-      <!-- ==================== THEME-AWARE READABLE ORGAN CARDS ==================== -->
+      <!-- ==================== ENGLISH-ONLY 20PX HIGH-CONTRAST ORGAN CARDS ==================== -->
       
-      <!-- 1. Head, Brain & Cranial (Shiras) -->
-      <g class="bodymap-zone card-head" ${zone('head', 'Head & Brain (Shiras)')}>
-        <line x1="450" y1="136" x2="280" y2="136" stroke="#0d9488" stroke-width="3" />
-        <circle cx="450" cy="136" r="18" fill="#0d9488" filter="url(#pin-glow-head)" />
+      <!-- 1. Head & Brain -->
+      <g class="bodymap-zone card-head" ${zone('head', 'Head & Brain')}>
+        <line x1="450" y1="136" x2="280" y2="136" stroke="#14b8a6" stroke-width="3" />
+        <circle cx="450" cy="136" r="18" fill="#14b8a6" filter="url(#pin-glow-head)" />
         <circle cx="450" cy="136" r="7" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="106" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="133">Head &amp; Brain</text>
-        <text class="bodymap-card-sub" x="24" y="154">Shiras (CNS &amp; Cranial)</text>
+        <rect class="bodymap-card-bg" x="10" y="112" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="143">Head &amp; Brain</text>
       </g>
 
-      <!-- 2. ENT, Nasal & Paranasal (Ghrana) -->
-      <g class="bodymap-zone card-ent" ${zone('head', 'ENT & Nasal Cavity (Ghrana)')}>
-        <line x1="450" y1="180" x2="660" y2="180" stroke="#0284c7" stroke-width="3" />
-        <circle cx="450" cy="180" r="16" fill="#0284c7" filter="url(#pin-glow-head)" />
+      <!-- 2. ENT & Nasal Cavity -->
+      <g class="bodymap-zone card-ent" ${zone('head', 'ENT & Nasal Cavity')}>
+        <line x1="450" y1="180" x2="660" y2="180" stroke="#38bdf8" stroke-width="3" />
+        <circle cx="450" cy="180" r="16" fill="#38bdf8" filter="url(#pin-glow-head)" />
         <circle cx="450" cy="180" r="6" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="660" y="150" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="674" y="177">ENT &amp; Nasal Cavity</text>
-        <text class="bodymap-card-sub" x="674" y="198">Ghrana (Upper Airway)</text>
+        <rect class="bodymap-card-bg" x="660" y="156" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="674" y="187">ENT &amp; Nasal Cavity</text>
       </g>
 
-      <!-- 3. Oral Cavity & Throat (Kantha) -->
-      <g class="bodymap-zone card-head" ${zone('head', 'Mouth & Throat (Kantha)')}>
-        <line x1="450" y1="259" x2="280" y2="259" stroke="#0d9488" stroke-width="3" />
-        <circle cx="450" cy="259" r="18" fill="#0d9488" filter="url(#pin-glow-head)" />
+      <!-- 3. Mouth & Throat -->
+      <g class="bodymap-zone card-head" ${zone('head', 'Mouth & Throat')}>
+        <line x1="450" y1="259" x2="280" y2="259" stroke="#14b8a6" stroke-width="3" />
+        <circle cx="450" cy="259" r="18" fill="#14b8a6" filter="url(#pin-glow-head)" />
         <circle cx="450" cy="259" r="7" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="229" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="256">Mouth &amp; Throat</text>
-        <text class="bodymap-card-sub" x="24" y="277">Kantha &amp; Jihva (Oral)</text>
+        <rect class="bodymap-card-bg" x="10" y="235" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="266">Mouth &amp; Throat</text>
       </g>
 
-      <!-- 4. Upper Extremity Joints (Parva) -->
-      <g class="bodymap-zone card-arm" ${zone('arm', 'Upper Extremity Joints (Parva)')}>
-        <line x1="259" y1="375" x2="280" y2="375" stroke="#d97706" stroke-width="3" />
-        <circle cx="259" cy="375" r="18" fill="#d97706" />
+      <!-- 4. Arms & Shoulder Joints -->
+      <g class="bodymap-zone card-arm" ${zone('arm', 'Arms & Shoulder Joints')}>
+        <line x1="259" y1="375" x2="280" y2="375" stroke="#fbbf24" stroke-width="3" />
+        <circle cx="259" cy="375" r="18" fill="#fbbf24" />
         <circle cx="259" cy="375" r="7" fill="#ffffff" />
-        <circle cx="672" cy="375" r="18" fill="#d97706" />
+        <circle cx="672" cy="375" r="18" fill="#fbbf24" />
         <circle cx="672" cy="375" r="7" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="345" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="372">Arms &amp; Shoulder Joints</text>
-        <text class="bodymap-card-sub" x="24" y="393">Parva (Upper Extremities)</text>
+        <rect class="bodymap-card-bg" x="10" y="351" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="382">Arms &amp; Shoulder Joints</text>
       </g>
 
-      <!-- 5. Lungs & Thorax (Uras) -->
-      <g class="bodymap-zone card-chest" ${zone('chest', 'Chest & Lungs (Uras)')}>
-        <line x1="450" y1="485" x2="280" y2="485" stroke="#0284c7" stroke-width="3" />
-        <circle cx="450" cy="485" r="20" fill="#0284c7" />
+      <!-- 5. Chest & Lungs -->
+      <g class="bodymap-zone card-chest" ${zone('chest', 'Chest & Lungs')}>
+        <line x1="450" y1="485" x2="280" y2="485" stroke="#38bdf8" stroke-width="3" />
+        <circle cx="450" cy="485" r="20" fill="#38bdf8" />
         <circle cx="450" cy="485" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="455" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="482">Chest &amp; Lungs</text>
-        <text class="bodymap-card-sub" x="24" y="503">Uras (Pulmonary &amp; Thorax)</text>
+        <rect class="bodymap-card-bg" x="10" y="461" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="492">Chest &amp; Lungs</text>
       </g>
 
-      <!-- 6. Heart & Circulation (Hridaya) -->
-      <g class="bodymap-zone card-heart" ${zone('chest', 'Heart & Circulation (Hridaya)')}>
-        <line x1="428" y1="460" x2="660" y2="460" stroke="#dc2626" stroke-width="3" />
-        <circle cx="428" cy="460" r="20" fill="#dc2626" />
+      <!-- 6. Heart & Circulation -->
+      <g class="bodymap-zone card-heart" ${zone('chest', 'Heart & Circulation')}>
+        <line x1="428" y1="460" x2="660" y2="460" stroke="#f87171" stroke-width="3" />
+        <circle cx="428" cy="460" r="20" fill="#f87171" />
         <circle cx="428" cy="460" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="660" y="430" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="674" y="457">Heart &amp; Circulation</text>
-        <text class="bodymap-card-sub" x="674" y="478">Hridaya (Cardiovascular)</text>
+        <rect class="bodymap-card-bg" x="660" y="436" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="674" y="467">Heart &amp; Circulation</text>
       </g>
 
-      <!-- 7. Stomach, Liver & Spleen (Amashaya & Yakrit) -->
-      <g class="bodymap-zone card-gut" ${zone('torso', 'Stomach & Liver (Amashaya & Yakrit)')}>
-        <line x1="411" y1="588" x2="280" y2="588" stroke="#ea580c" stroke-width="3" />
-        <circle cx="411" cy="588" r="20" fill="#ea580c" />
+      <!-- 7. Stomach & Liver -->
+      <g class="bodymap-zone card-gut" ${zone('torso', 'Stomach & Liver')}>
+        <line x1="411" y1="588" x2="280" y2="588" stroke="#fb923c" stroke-width="3" />
+        <circle cx="411" cy="588" r="20" fill="#fb923c" />
         <circle cx="411" cy="588" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="558" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="585">Stomach &amp; Liver</text>
-        <text class="bodymap-card-sub" x="24" y="606">Amashaya &amp; Yakrit (Gastric)</text>
+        <rect class="bodymap-card-bg" x="10" y="564" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="595">Stomach &amp; Liver</text>
       </g>
 
-      <!-- 8. Small Intestine (Grahani) -->
-      <g class="bodymap-zone card-gut" ${zone('torso', 'Small Intestine (Grahani)')}>
-        <line x1="466" y1="655" x2="660" y2="655" stroke="#ea580c" stroke-width="3" />
-        <circle cx="466" cy="655" r="20" fill="#ea580c" />
+      <!-- 8. Small Intestine -->
+      <g class="bodymap-zone card-gut" ${zone('torso', 'Small Intestine')}>
+        <line x1="466" y1="655" x2="660" y2="655" stroke="#fb923c" stroke-width="3" />
+        <circle cx="466" cy="655" r="20" fill="#fb923c" />
         <circle cx="466" cy="655" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="660" y="625" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="674" y="652">Small Intestine</text>
-        <text class="bodymap-card-sub" x="674" y="673">Grahani (Gastro-Duodenal)</text>
+        <rect class="bodymap-card-bg" x="660" y="631" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="674" y="662">Small Intestine</text>
       </g>
 
-      <!-- 9. Colon & Abdomen (Pakvashaya & Nabhi) -->
-      <g class="bodymap-zone card-vata" ${zone('torso', 'Colon & Abdomen (Pakvashaya & Nabhi)')}>
-        <line x1="449" y1="712" x2="280" y2="712" stroke="#2563eb" stroke-width="3" />
-        <circle cx="449" cy="712" r="20" fill="#2563eb" />
+      <!-- 9. Colon & Abdomen -->
+      <g class="bodymap-zone card-vata" ${zone('torso', 'Colon & Abdomen')}>
+        <line x1="449" y1="712" x2="280" y2="712" stroke="#60a5fa" stroke-width="3" />
+        <circle cx="449" cy="712" r="20" fill="#60a5fa" />
         <circle cx="449" cy="712" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="682" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="709">Colon &amp; Abdomen</text>
-        <text class="bodymap-card-sub" x="24" y="730">Nabhi &amp; Pakvashaya (Bowel)</text>
+        <rect class="bodymap-card-bg" x="10" y="688" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="719">Colon &amp; Abdomen</text>
       </g>
 
-      <!-- 10. Bladder & Kidneys (Basti & Vrikka) -->
-      <g class="bodymap-zone card-vata" ${zone('torso', 'Bladder & Kidneys (Basti & Vrikka)')}>
-        <line x1="450" y1="877" x2="660" y2="877" stroke="#2563eb" stroke-width="3" />
-        <circle cx="450" cy="877" r="20" fill="#2563eb" />
+      <!-- 10. Bladder & Kidneys -->
+      <g class="bodymap-zone card-vata" ${zone('torso', 'Bladder & Kidneys')}>
+        <line x1="450" y1="877" x2="660" y2="877" stroke="#60a5fa" stroke-width="3" />
+        <circle cx="450" cy="877" r="20" fill="#60a5fa" />
         <circle cx="450" cy="877" r="8" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="660" y="847" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="674" y="874">Bladder &amp; Kidneys</text>
-        <text class="bodymap-card-sub" x="674" y="895">Basti &amp; Vrikka (Renal / Pelvis)</text>
+        <rect class="bodymap-card-bg" x="660" y="853" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="674" y="884">Bladder &amp; Kidneys</text>
       </g>
 
-      <!-- 11. Legs & Feet (Sakthi) -->
-      <g class="bodymap-zone card-vata" ${zone('leg', 'Legs & Feet (Sakthi)')}>
-        <line x1="540" y1="1086" x2="280" y2="1086" stroke="#2563eb" stroke-width="3" />
-        <circle cx="540" cy="1086" r="22" fill="#2563eb" />
+      <!-- 11. Legs & Feet -->
+      <g class="bodymap-zone card-vata" ${zone('leg', 'Legs & Feet')}>
+        <line x1="540" y1="1086" x2="280" y2="1086" stroke="#60a5fa" stroke-width="3" />
+        <circle cx="540" cy="1086" r="22" fill="#60a5fa" />
         <circle cx="540" cy="1086" r="9" fill="#ffffff" />
-        <circle cx="358" cy="1086" r="22" fill="#2563eb" />
+        <circle cx="358" cy="1086" r="22" fill="#60a5fa" />
         <circle cx="358" cy="1086" r="9" fill="#ffffff" />
-        <rect class="bodymap-card-bg" x="10" y="1056" width="270" height="60" rx="10" />
-        <text class="bodymap-card-title" x="24" y="1083">Legs &amp; Feet</text>
-        <text class="bodymap-card-sub" x="24" y="1104">Sakthi (Lower Extremities)</text>
+        <rect class="bodymap-card-bg" x="10" y="1062" width="270" height="48" rx="10" />
+        <text class="bodymap-card-title" x="24" y="1093">Legs &amp; Feet</text>
       </g>
 
     </svg>`;
@@ -175,22 +164,22 @@ export function faceCloseupSVG(counts = {}) {
   return `
     <svg class="bodymap-svg" viewBox="0 0 900 1000" xmlns="http://www.w3.org/2000/svg" aria-label="Cranial and ENT Anatomical Plate">
       <image href="assets/plates/head.webp" x="0" y="0" width="900" height="1000" />
-      <g class="bodymap-zone" ${zone('headgen', 'Cranial & CNS (Shiras)')}>
+      <g class="bodymap-zone" ${zone('headgen', 'Cranial & CNS')}>
         <circle cx="448" cy="323" r="28" fill="#8b5cf6" opacity="0.92" />
         <circle cx="448" cy="323" r="10" fill="#ffffff" />
       </g>
-      <g class="bodymap-zone" ${zone('ear', 'Auditory & Vestibular (Shrotra)')}>
+      <g class="bodymap-zone" ${zone('ear', 'Auditory & Vestibular')}>
         <circle cx="269" cy="428" r="28" fill="#10b981" opacity="0.92" />
         <circle cx="628" cy="428" r="28" fill="#10b981" opacity="0.92" />
       </g>
-      <g class="bodymap-zone" ${zone('eye', 'Ophthalmic & Visual (Drik)')}>
+      <g class="bodymap-zone" ${zone('eye', 'Ophthalmic & Visual')}>
         <circle cx="373" cy="404" r="26" fill="#06b6d4" opacity="0.92" />
         <circle cx="524" cy="404" r="26" fill="#06b6d4" opacity="0.92" />
       </g>
-      <g class="bodymap-zone" ${zone('nose', 'Nasal Cavity (Ghrana)')}>
+      <g class="bodymap-zone" ${zone('nose', 'Nasal Cavity')}>
         <circle cx="449" cy="434" r="24" fill="#10b981" opacity="0.92" />
       </g>
-      <g class="bodymap-zone" ${zone('mouth', 'Oral Cavity & Pharynx (Kantha)')}>
+      <g class="bodymap-zone" ${zone('mouth', 'Oral Cavity & Pharynx')}>
         <circle cx="449" cy="576" r="26" fill="#f97316" opacity="0.92" />
         <circle cx="448" cy="629" r="28" fill="#ef4444" opacity="0.92" />
       </g>
