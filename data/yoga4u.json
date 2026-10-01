@@ -1,0 +1,1758 @@
+[
+{
+"conditionId": "CND_BRONCHITIS",
+"condition": "Acute bronchitis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Slow-breathing pranayama (Buteyko-style); Pranayama breathing technique; Bhastrika pranayama (bellows breath)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Slow-breathing pranayama (Buteyko-style)",
+"Pranayama breathing technique",
+"Bhastrika pranayama (bellows breath)"
+],
+"practiceDetail": [
+{
+"name": "Slow-breathing pranayama (Buteyko-style)",
+"note": "[Human RCT, extrapolated] Randomised controlled trial in asthma patients — bronchial-airway evidence, not acute-bronchitis-specific.",
+"evidenceUrl": "https://pubmed.ncbi.nlm.nih.gov/12885982/",
+"video": "The Breathing Technique That Saved My Life — Buteyko Breathing — The Buteyko Method",
+"videoUrl": "https://www.youtube.com/watch?v=B5y4KPgd5so"
+},
+{
+"name": "Pranayama breathing technique",
+"note": "[Human RCT, extrapolated] Single-blind RCT: improved asthma control, pulmonary function and quality of life — asthma evidence, extrapolated to bronchial airway inflammation.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1744388119308540",
+"video": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"videoUrl": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"name": "Bhastrika pranayama (bellows breath)",
+"note": "[Human study, extrapolated] Study in yoga practitioners showed measurable neuro-cardiovascular-respiratory effects — general respiratory physiology, not bronchitis-specific.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953524/",
+"video": "Bhastrika Pranayama — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=JjTNA8rpRTE"
+}
+],
+"videos": [
+{
+"title": "The Breathing Technique That Saved My Life — Buteyko Breathing — The Buteyko Method",
+"url": "https://www.youtube.com/watch?v=B5y4KPgd5so"
+},
+{
+"title": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"url": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"title": "Bhastrika Pranayama — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=JjTNA8rpRTE"
+},
+{
+"title": "Kapalbhati Pranayama for Immunity",
+"url": "https://www.youtube.com/shorts/HiIdctCVzC0"
+},
+{
+"title": "How to do Bhramari Pranayama",
+"url": "https://www.youtube.com/shorts/asT03H4F7LM"
+},
+{
+"title": "Nadi Shodhana for Beginners — 3 Levels",
+"url": "https://www.youtube.com/shorts/CFX24XWi1lM"
+}
+]
+},
+{
+"conditionId": "CND_GASTROENTERITIS",
+"condition": "Acute gastroenteritis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Slow diaphragmatic breathing / Nadi Shodhana; General yoga practice for digestive health; Rest / Shavasana during the acute illness",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Slow diaphragmatic breathing / Nadi Shodhana",
+"General yoga practice for digestive health",
+"Rest / Shavasana during the acute illness"
+],
+"practiceDetail": [
+{
+"name": "Slow diaphragmatic breathing / Nadi Shodhana",
+"note": "[Preclinical / mechanistic] Reviewed physiological mechanism: activates parasympathetic (\"rest-and-digest\") tone — no dedicated trial in acute infectious gastroenteritis found.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"name": "General yoga practice for digestive health",
+"note": "[Human RCT, extrapolated] RCT in older adults: yoga therapy improved digestive health and sleep quality — chronic/functional digestive complaints, not acute infectious diarrhoea.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1360859221000863",
+"video": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"name": "Rest / Shavasana during the acute illness",
+"note": "[Evidence gap, stated honestly] No yoga or pranayama trial specific to acute gastroenteritis was found; general relaxation-practice evidence only, once the acute phase has settled.",
+"evidenceUrl": "https://karger.com/cmr/article/32/6/495/938576/Yoga-Nidra-and-Pain-A-between-within-Group-Meta",
+"video": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+}
+],
+"videos": [
+{
+"title": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"title": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"url": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+},
+{
+"title": "3 Yoga Poses for Instant Gas & Bloat Relief",
+"url": "https://www.youtube.com/shorts/p5zSXz8BHhY"
+},
+{
+"title": "Gas & Bloating Relief in 3 Yoga Poses",
+"url": "https://www.youtube.com/shorts/mmh1Zmdjhwo"
+},
+{
+"title": "Yoga for Bloating, Digestion & Trapped Gas",
+"url": "https://www.youtube.com/shorts/HUCyP39A_Zk"
+}
+]
+},
+{
+"conditionId": "CND_LARYNGITIS",
+"condition": "Acute laryngitis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Ujjayi pranayama; Bhramari pranayama (humming-bee breath); Gentle diaphragmatic breathing (reducing vocal strain)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Ujjayi pranayama",
+"Bhramari pranayama (humming-bee breath)",
+"Gentle diaphragmatic breathing (reducing vocal strain)"
+],
+"practiceDetail": [
+{
+"name": "Ujjayi pranayama",
+"note": "[Human RCT] Study in professional voice users: significant improvements in voice acoustic and aerodynamic parameters — direct voice-quality evidence.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947621001388",
+"video": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"videoUrl": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"name": "Bhramari pranayama (humming-bee breath)",
+"note": "[Systematic review, general] Reviewed effects on the central/autonomic nervous system — general evidence, not laryngitis-specific.",
+"evidenceUrl": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/1114377f-ef49-4802-9745-a312b072dd5e/content",
+"video": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"name": "Gentle diaphragmatic breathing (reducing vocal strain)",
+"note": "[Preclinical / mechanistic] General pranayama autonomic-mechanism evidence, not laryngitis-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+],
+"videos": [
+{
+"title": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"url": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"title": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Bhramari Pranayama — The Humming Breath for a Calm Mind",
+"url": "https://www.youtube.com/shorts/VBbGRSBeSPc"
+},
+{
+"title": "Alternate Nostril Breathing — Shilpa Shetty Yoga",
+"url": "https://www.youtube.com/shorts/Flvft95sgQM"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_SINUSITIS",
+"condition": "Acute sinusitis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Bhramari pranayama (humming-bee breath); Nadi Shodhana (alternate-nostril breathing); Kapalbhati (forceful nasal exhalation)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Bhramari pranayama (humming-bee breath)",
+"Nadi Shodhana (alternate-nostril breathing)",
+"Kapalbhati (forceful nasal exhalation)"
+],
+"practiceDetail": [
+{
+"name": "Bhramari pranayama (humming-bee breath)",
+"note": "[Human RCT] Randomised study, 60 chronic rhinosinusitis patients: SNOT-22 symptom score improved significantly (39.1→24.8, p=0.0002) when added to conventional treatment.",
+"evidenceUrl": "https://pubmed.ncbi.nlm.nih.gov/31143019/",
+"video": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"name": "Nadi Shodhana (alternate-nostril breathing)",
+"note": "[Human study] Study of Nadi Shodhan yoga on sinus symptoms associated with hay fever/allergic rhinitis — closely related nasal-symptom presentation.",
+"evidenceUrl": "https://www.researchgate.net/publication/381567146_The_Effect_of_Nadi_Shodhan_Yoga_on_Sinus_Symptoms_Associated_with_Hay_Fever",
+"video": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"name": "Kapalbhati (forceful nasal exhalation)",
+"note": "[Human study, extrapolated] General respiratory-function evidence from yoga practitioners — no dedicated sinusitis trial for Kapalbhati specifically was found.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953524/",
+"video": "Kapalbhati Pranayama — Breathing Exercise — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=PX0nC7Lg8-0"
+}
+],
+"videos": [
+{
+"title": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"title": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"title": "Kapalbhati Pranayama — Breathing Exercise — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=PX0nC7Lg8-0"
+},
+{
+"title": "Learn to do Bhramari Pranayama Correctly",
+"url": "https://www.youtube.com/shorts/W22cv2C3V6E"
+},
+{
+"title": "Nadi Shodhana for Beginners — 3 Levels",
+"url": "https://www.youtube.com/shorts/CFX24XWi1lM"
+},
+{
+"title": "How to do Kapalbhati Pranayama Correctly — Skull Shining Breath",
+"url": "https://www.youtube.com/shorts/qfJ-_DaIRhc"
+}
+]
+},
+{
+"conditionId": "CND_ASTHMA_EXAC",
+"condition": "Asthma exacerbation",
+"specialty": "Respiratory",
+"source": "selfcare",
+"cautionLevel": "CAUTION",
+"asanas": "",
+"pranayama": "Slow-breathing pranayama (Buteyko-style); Pranayama breathing technique; Gentle diaphragmatic breathing between episodes",
+"safetyNote": "This is for between-attack management of known, diagnosed asthma — never for an active attack. If breathless, unable to complete a sentence, or not responding to a reliever inhaler, that needs emergency care now, not a breathing practice.",
+"practiceNames": [
+"Slow-breathing pranayama (Buteyko-style)",
+"Pranayama breathing technique",
+"Gentle diaphragmatic breathing"
+],
+"practiceDetail": [
+{
+"remedy": "Slow-breathing pranayama (Buteyko-style)",
+"note": "[Human RCT] Randomised controlled trial IN ASTHMA PATIENTS specifically — not extrapolated from elsewhere, unlike most Yoga4U entries.",
+"evidenceUrl": "https://pubmed.ncbi.nlm.nih.gov/12885982/",
+"video": "The Breathing Technique That Saved My Life — Buteyko Breathing",
+"videoUrl": "https://www.youtube.com/watch?v=B5y4KPgd5so"
+},
+{
+"remedy": "Pranayama breathing technique",
+"note": "[Human RCT] Single-blind RCT in asthma patients: improved asthma control, pulmonary function and quality of life.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1744388119308540",
+"video": "Pranayama breathing technique for asthma control",
+"videoUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953524/"
+},
+{
+"remedy": "Gentle diaphragmatic breathing between episodes",
+"note": "General autonomic/respiratory-mechanism support, alongside prescribed preventer therapy.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+],
+"videos": [
+{
+"title": "The Breathing Technique That Saved My Life — Buteyko Breathing",
+"url": "https://www.youtube.com/watch?v=B5y4KPgd5so"
+},
+{
+"title": "Pranayama breathing technique for asthma control",
+"url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953524/"
+},
+{
+"title": "Diaphragmatic Breathing Technique",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+]
+},
+{
+"conditionId": "CND_ECZEMA",
+"condition": "Atopic eczema",
+"specialty": "Dermatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "General stress-reduction-focused practice, as for psoriasis; avoid excessive sweating over active eczema patches",
+"pranayama": "Diaphragmatic breathing; Bhramari",
+"safetyNote": "As with psoriasis, stress is a recognised trigger/aggravator — this supports, not replaces, moisturising/prescribed treatment and trigger avoidance.",
+"practiceNames": [
+"General stress-reduction-focused practice, as for psoriasis",
+"avoid excessive sweating over active eczema patches",
+"Diaphragmatic breathing",
+"Bhramari"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Psoriasis or Eczema or Dry Skin Problem? Try This Yoga Mudra",
+"url": "https://www.youtube.com/shorts/4uH_CB0AlSc"
+},
+{
+"title": "1 Minute Breathing Exercise for Anxiety and Stress",
+"url": "https://www.youtube.com/shorts/5XXxFrITiEM"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_CARPAL_TUNNEL",
+"condition": "Carpal tunnel syndrome",
+"specialty": "Musculoskeletal",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Wrist/median-nerve glide stretches; gentle finger and wrist extension stretches",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Stop any stretch that reproduces tingling or numbness rather than relieving it — nerve-glide exercises should feel like gentle movement, not provocation of symptoms.",
+"practiceNames": [
+"Wrist/median-nerve glide stretches",
+"gentle finger and wrist extension stretches",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Exercises for Carpal Tunnel Syndrome Pain Relief",
+"url": "https://www.youtube.com/shorts/7qNPPxDmXL0"
+},
+{
+"title": "#5/5 Exercises for Carpal Tunnel Syndrome",
+"url": "https://www.youtube.com/shorts/qxXjlMdFFGc"
+},
+{
+"title": "Top 3 Stretches & Exercises for Carpal Tunnel Syndrome",
+"url": "https://www.youtube.com/watch?v=dCpw1uTFfp8"
+}
+]
+},
+{
+"conditionId": "CND_CERVICOGENIC",
+"condition": "Cervicogenic headache",
+"specialty": "Musculoskeletal",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle neck stretches and chin tucks; upper trapezius stretch; postural correction work",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Move the neck slowly and only within a comfortable range — this headache originates from the neck joints/muscles, so aggressive stretching can aggravate rather than relieve it.",
+"practiceNames": [
+"Gentle neck stretches and chin tucks",
+"upper trapezius stretch",
+"postural correction work",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Upper Trapezius Stretch For Instant Relief",
+"url": "https://www.youtube.com/shorts/qa2cYqdmHUg"
+},
+{
+"title": "Headache Relief With 3 Simple Acupressure Points",
+"url": "https://www.youtube.com/shorts/3xgoz726rP8"
+},
+{
+"title": "Yoga for Tension Headaches — Neck & Shoulder Release",
+"url": "https://www.youtube.com/watch?v=GgQvTqJ8OHI"
+}
+]
+},
+{
+"conditionId": "CND_ANGINA",
+"condition": "Chronic / stable angina",
+"specialty": "Cardiology",
+"source": "chronic",
+"cautionLevel": "HIGH CAUTION",
+"asanas": "Seated/supine restorative poses only (e.g. supported Shavasana); no inversions, no strenuous holds",
+"pranayama": "Slow diaphragmatic breathing; gentle Nadi Shodhana (Anulom Vilom) — AVOID Kapalbhati and Bhastrika",
+"safetyNote": "Cardiologist clearance required before starting. Avoid ANY forceful or breath-retention pranayama — these transiently raise blood pressure and heart rate, which is precisely the wrong direction for angina. Stop immediately for chest pain, breathlessness, dizziness or palpitations and seek medical attention — never push through.",
+"practiceNames": [
+"Seated/supine restorative poses only (e.g. supported Shavasana)",
+"no inversions, no strenuous holds",
+"Slow diaphragmatic breathing",
+"gentle Nadi Shodhana (Anulom Vilom) — AVOID Kapalbhati and Bhastrika"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "4-7-8 Calm Breathing Exercise — Beginner Pace",
+"url": "https://www.youtube.com/shorts/_fqr8XNubEI"
+},
+{
+"title": "Most Effective Pranayama for Better Heart Health",
+"url": "https://www.youtube.com/watch?v=XWLjcwiayrE"
+},
+{
+"title": "Alternate Nostril Breathing — Shilpa Shetty Yoga",
+"url": "https://www.youtube.com/shorts/Flvft95sgQM"
+}
+]
+},
+{
+"conditionId": "CND_CFS",
+"condition": "Chronic fatigue syndrome / ME",
+"specialty": "General practice",
+"source": "chronic",
+"cautionLevel": "CAUTION — pacing",
+"asanas": "Bed/chair-based gentle yoga only, especially early on; avoid anything exertion-graded",
+"pranayama": "Slow diaphragmatic breathing; Yoga Nidra",
+"safetyNote": "\"Pacing\" is the key safety principle — post-exertional malaise (a delayed crash after over-exertion) is a hallmark of this condition. Start far shorter/gentler than feels necessary and increase very gradually, guided by how the following day feels, not how today's session felt.",
+"practiceNames": [
+"Bed/chair-based gentle yoga only, especially early on",
+"avoid anything exertion-graded",
+"Slow diaphragmatic breathing",
+"Yoga Nidra"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Bed Yoga for Chronic Fatigue — 5 Minute Class",
+"url": "https://www.youtube.com/watch?v=h3km0oic7Mo"
+},
+{
+"title": "Gentle Yoga for Chronic Fatigue",
+"url": "https://www.youtube.com/watch?v=Ji5g_Gul_G4"
+},
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+}
+]
+},
+{
+"conditionId": "CND_VENOUS_INSUFF",
+"condition": "Chronic venous insufficiency",
+"specialty": "Vascular",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Legs-up-the-wall pose (Viparita Karani); ankle pumps; avoid prolonged standing poses",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Elevating the legs above heart level is the key benefit here — prioritise that over any active asana. Avoid long-held standing postures.",
+"practiceNames": [
+"Legs-up-the-wall pose (Viparita Karani)",
+"ankle pumps",
+"avoid prolonged standing poses",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Peripheral Arterial Disease and Chronic Venous Insufficiency — Exercises",
+"url": "https://www.youtube.com/shorts/wTaYDkSM0nI"
+},
+{
+"title": "Yoga For Peripheral Neuropathy Relief — Setu Bandhasana / Viparita Karani",
+"url": "https://www.youtube.com/watch?v=r-VopO_OGBo"
+},
+{
+"title": "3 Exercises a Vascular Surgeon Wants You to Do Daily for Better Leg Circulation",
+"url": "https://www.youtube.com/watch?v=xK_tH-ztCu0"
+}
+]
+},
+{
+"conditionId": "CND_URTI",
+"condition": "Common cold (upper respiratory tract infection)",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Pranayama / breathing exercises; Bhastrika pranayama (bellows breath); Nadi Shodhana (alternate-nostril breathing)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Pranayama / breathing exercises",
+"Bhastrika pranayama (bellows breath)",
+"Nadi Shodhana (alternate-nostril breathing)"
+],
+"practiceDetail": [
+{
+"name": "Pranayama / breathing exercises",
+"note": "[Systematic review, mixed evidence] Review of yoga/breathing effects on inflammatory biomarkers — the review's own conclusion is that dedicated common-cold clinical evidence remains limited.",
+"evidenceUrl": "https://onlinelibrary.wiley.com/doi/10.1155/2022/3523432",
+"video": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"videoUrl": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"name": "Bhastrika pranayama (bellows breath)",
+"note": "[Human study, extrapolated] General respiratory physiological benefit shown in yoga practitioners — not cold-specific.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11953524/",
+"video": "Bhastrika Pranayama — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=JjTNA8rpRTE"
+},
+{
+"name": "Nadi Shodhana (alternate-nostril breathing)",
+"note": "[Preclinical / mechanistic] General parasympathetic/immune-relevant autonomic mechanism, not cold-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+}
+],
+"videos": [
+{
+"title": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"url": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"title": "Bhastrika Pranayama — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=JjTNA8rpRTE"
+},
+{
+"title": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"title": "Kapalbhati Pranayama Explained — Technique, Benefits & Mistakes",
+"url": "https://www.youtube.com/shorts/jKiW6Wz3d9I"
+},
+{
+"title": "How to do Bhramari Pranayama",
+"url": "https://www.youtube.com/shorts/asT03H4F7LM"
+},
+{
+"title": "Alternate Nostril Breathing — Shilpa Shetty Yoga",
+"url": "https://www.youtube.com/shorts/Flvft95sgQM"
+}
+]
+},
+{
+"conditionId": "CND_CONJUNCTIVITIS",
+"condition": "Conjunctivitis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Trataka (steady-gaze eye kriya); Palming (eye relaxation); Shavasana / general relaxation during recovery",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Trataka (steady-gaze eye kriya)",
+"Palming (eye relaxation)",
+"Shavasana / general relaxation during recovery"
+],
+"practiceDetail": [
+{
+"name": "Trataka (steady-gaze eye kriya)",
+"note": "[Systematic review, mixed evidence] Scoping review of yoga for eye health: some studies show reduced eye strain/improved visual comfort — evidence is for eye strain and general ocular function, not infective conjunctivitis specifically, and trials were small.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1876382024000969",
+"video": "Trataka Meditation Explained — Candle Gazing for Focus & Eyesight — instructional yoga channel",
+"videoUrl": "https://www.youtube.com/watch?v=88hZtbS7FE4"
+},
+{
+"name": "Palming (eye relaxation)",
+"note": "[Evidence gap, stated honestly] No dedicated trial for infective conjunctivitis was found; included here only as a general eye-relaxation practice with the same eye-health review as its closest available source.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1876382024000969",
+"video": "Palming Your Eyes — for Relaxation and Clarity of Mind — instructional yoga channel",
+"videoUrl": "https://www.youtube.com/watch?v=JmMzBxWnEog"
+},
+{
+"name": "Shavasana / general relaxation during recovery",
+"note": "[Systematic review, general] General relaxation-practice pain/stress evidence — not eye- or infection-specific.",
+"evidenceUrl": "https://karger.com/cmr/article/32/6/495/938576/Yoga-Nidra-and-Pain-A-between-within-Group-Meta",
+"video": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+}
+],
+"videos": [
+{
+"title": "Trataka Meditation Explained — Candle Gazing for Focus & Eyesight — instructional yoga channel",
+"url": "https://www.youtube.com/watch?v=88hZtbS7FE4"
+},
+{
+"title": "Palming Your Eyes — for Relaxation and Clarity of Mind — instructional yoga channel",
+"url": "https://www.youtube.com/watch?v=JmMzBxWnEog"
+},
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+},
+{
+"title": "Eye Exercise for Beginners to Prevent Eye Strain",
+"url": "https://www.youtube.com/shorts/rAubPgvPQWE"
+},
+{
+"title": "3 Exercises for Digital Eye Strain",
+"url": "https://www.youtube.com/shorts/Yt9Vj_Q_5do"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_COSTOCHONDRITIS",
+"condition": "Costochondritis / musculoskeletal chest pain",
+"specialty": "Musculoskeletal",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Diaphragmatic / deep breathing pranayama; Gentle chest-opening restorative yoga stretches; Mindfulness meditation (Dhyana)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Diaphragmatic / deep breathing pranayama",
+"Gentle chest-opening restorative yoga stretches",
+"Mindfulness meditation (Dhyana)"
+],
+"practiceDetail": [
+{
+"name": "Diaphragmatic / deep breathing pranayama",
+"note": "[Preclinical / mechanistic] General autonomic pain-modulation mechanism — no dedicated costochondritis trial found.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"name": "Gentle chest-opening restorative yoga stretches",
+"note": "[Human RCTs, extrapolated] Meta-analysis of RCTs: yoga reduced pain/disability versus non-exercise controls for chronic musculoskeletal pain generally — not costochondritis-specific, no dedicated trial found for this condition.",
+"evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0238544",
+"video": "Yoga For Lower Back Pain — Yoga With Adriene",
+"videoUrl": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"name": "Mindfulness meditation (Dhyana)",
+"note": "[Meta-analysis, human RCTs] Meta-analysis of 30 RCTs: small but real reduction in pain versus control across chronic pain conditions generally.",
+"evidenceUrl": "https://academic.oup.com/abm/article/51/2/199/4564147",
+"video": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"videoUrl": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+}
+],
+"videos": [
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"title": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"url": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"title": "Great Stretch for Costochondritis — Stiff Back Relief",
+"url": "https://www.youtube.com/shorts/6gXzVj_rYSQ"
+},
+{
+"title": "Best Exercises For Costochondritis Relief",
+"url": "https://www.youtube.com/shorts/EPuBUI-lNas"
+},
+{
+"title": "Upper Trapezius Stretch For Instant Relief",
+"url": "https://www.youtube.com/shorts/qa2cYqdmHUg"
+}
+]
+},
+{
+"conditionId": "CND_DEPRESSION",
+"condition": "Depression",
+"specialty": "Psychiatry",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle, mood-lifting sequences; sun-facing/outdoor practice where possible; avoid overly passive practice if low motivation is a barrier — start very small",
+"pranayama": "Diaphragmatic breathing; Bhastrika (energising, if no cardiac contraindication)",
+"safetyNote": "As with anxiety, this supports but does not replace clinical treatment — please continue any prescribed therapy or medication alongside it, and speak to your clinician if symptoms are severe.",
+"practiceNames": [
+"Gentle, mood-lifting sequences",
+"sun-facing/outdoor practice where possible",
+"avoid overly passive practice if low motivation is a barrier — start very small",
+"Diaphragmatic breathing",
+"Bhastrika (energising, if no cardiac contraindication)"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+},
+{
+"title": "Yoga for Depression and Anxiety — Gentle Yoga with Yana",
+"url": "https://www.youtube.com/watch?v=OLeNJZCqvTY"
+},
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+}
+]
+},
+{
+"conditionId": "CND_FIBROMYALGIA",
+"condition": "Fibromyalgia",
+"specialty": "Rheumatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle restorative/Yin yoga; Shavasana; chair yoga",
+"pranayama": "Diaphragmatic breathing; Yoga Nidra",
+"safetyNote": "Start very gently — over-exertion can trigger a fibromyalgia flare the next day (\"post-exertional malaise\"-like pattern). Less is more; build up gradually.",
+"practiceNames": [
+"Gentle restorative/Yin yoga",
+"Shavasana",
+"chair yoga",
+"Diaphragmatic breathing",
+"Yoga Nidra"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Gentle Yoga for Fibromyalgia — 10 Minute",
+"url": "https://www.youtube.com/watch?v=ZujgWC7JbUA"
+},
+{
+"title": "Chair Yoga for Fibromyalgia and Chronic Pain",
+"url": "https://www.youtube.com/watch?v=nMw_DtRtSJc"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_FROZEN_SHOULDER",
+"condition": "Frozen shoulder",
+"specialty": "Musculoskeletal",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle pendulum swings; wall-walk finger stretches; \"butterfly\" shoulder stretch",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Work into mild discomfort, never sharp pain — frozen shoulder improves slowly (often months); forcing range too fast can provoke a flare and set recovery back.",
+"practiceNames": [
+"Gentle pendulum swings",
+"wall-walk finger stretches",
+"\"butterfly\" shoulder stretch",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Frozen Shoulder Workout — The \"Butterfly\" Shoulder Stretch",
+"url": "https://www.youtube.com/shorts/JXjnFSq4HYk"
+},
+{
+"title": "60 Second Frozen Shoulder Exercises & Stretches — Adhesive Capsulitis",
+"url": "https://www.youtube.com/watch?v=jC7m2DO2MeY"
+},
+{
+"title": "Frozen Shoulder — Exercises and Stretches at Home",
+"url": "https://www.youtube.com/watch?v=-5FAtYJBZ1A"
+}
+]
+},
+{
+"conditionId": "CND_CONSTIPATION",
+"condition": "Functional constipation",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Twisting/compression asanas (e.g. Ardha Matsyendrasana, Pawanmuktasana); General yoga practice for digestive health; Diaphragmatic breathing / Nadi Shodhana",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Twisting/compression asanas (e.g. Ardha Matsyendrasana, Pawanmuktasana)",
+"General yoga practice for digestive health",
+"Diaphragmatic breathing / Nadi Shodhana"
+],
+"practiceDetail": [
+{
+"name": "Twisting/compression asanas (e.g. Ardha Matsyendrasana, Pawanmuktasana)",
+"note": "[Human RCT, extrapolated] 12-week RCT: a remedial yoga module improved symptoms in irritable bowel syndrome — related GI-motility condition, not functional constipation specifically.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S1876382015300561",
+"video": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"name": "General yoga practice for digestive health",
+"note": "[Human RCT] RCT in older adults: yoga therapy improved digestive health and sleep quality.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S1360859221000863",
+"video": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"name": "Diaphragmatic breathing / Nadi Shodhana",
+"note": "[Preclinical / mechanistic] Parasympathetic (\"rest-and-digest\") activation mechanism relevant to gut motility.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+}
+],
+"videos": [
+{
+"title": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"url": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"title": "Pawanmuktasana Series 1, 2, 3 — Bihar School of Yoga",
+"url": "https://www.youtube.com/watch?v=A5PB5232gSc"
+},
+{
+"title": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"title": "Constipation Relief Quickly! — 5 Asanas Daily",
+"url": "https://www.youtube.com/shorts/Tu97OAEd-nk"
+},
+{
+"title": "Yoga to Improve Digestion — Digestive Health Yoga",
+"url": "https://www.youtube.com/shorts/GMVqIP2SV0Y"
+},
+{
+"title": "3 Yoga Poses for Instant Gas & Bloat Relief",
+"url": "https://www.youtube.com/shorts/p5zSXz8BHhY"
+}
+]
+},
+{
+"conditionId": "CND_GERD",
+"condition": "Gastro-oesophageal reflux disease (GERD)",
+"specialty": "Gastroenterology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Seated forward folds and gentle twists after (not immediately after) eating; avoid deep backbends and inversions on a full stomach",
+"pranayama": "Diaphragmatic breathing (strengthens the diaphragm's role at the lower oesophageal sphincter)",
+"safetyNote": "Practice on an empty-ish stomach (allow 2-3 hours after a meal) — inversions and deep backbends right after eating can worsen reflux rather than help it.",
+"practiceNames": [
+"Seated forward folds and gentle twists after (not immediately after) eating",
+"avoid deep backbends and inversions on a full stomach",
+"Diaphragmatic breathing (strengthens the diaphragm's role at the lower oesophageal sphincter)"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Yoga Mudra for Acid Reflux — GERD Mudra",
+"url": "https://www.youtube.com/shorts/nDBlSu7esOE"
+},
+{
+"title": "Yoga For Acid Reflux — Embrace It! (Yoga With Adriene)",
+"url": "https://www.youtube.com/watch?v=DQew7AiwPWw"
+},
+{
+"title": "Yoga For GERD Relief — 5 Yoga Poses",
+"url": "https://www.youtube.com/watch?v=oJkud8HJ6Js"
+}
+]
+},
+{
+"conditionId": "CND_GAD",
+"condition": "Generalised anxiety disorder",
+"specialty": "Psychiatry",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Restorative yoga; Shavasana; gentle seated practice",
+"pranayama": "Nadi Shodhana; Bhramari; slow diaphragmatic breathing",
+"safetyNote": "Yoga and breathwork are supportive, not a replacement for therapy or medication where those are indicated — treat this as a complement to your existing care, not a substitute for it.",
+"practiceNames": [
+"Restorative yoga",
+"Shavasana",
+"gentle seated practice",
+"Nadi Shodhana",
+"Bhramari",
+"slow diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+},
+{
+"title": "1 Minute Breathing Exercise for Anxiety and Stress",
+"url": "https://www.youtube.com/shorts/5XXxFrITiEM"
+},
+{
+"title": "Yoga For Anxiety and Stress — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=hJbRpHZr_d0"
+}
+]
+},
+{
+"conditionId": "CND_GOUT",
+"condition": "Gout",
+"specialty": "Rheumatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle ankle/foot mobility work once the acute attack has settled; general joint-friendly asana as for OA/RA",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Never during an acute gout flare — the joint needs rest and medical treatment first, not stretching. These practices are for between-flare maintenance only.",
+"practiceNames": [
+"Gentle ankle/foot mobility work once the acute attack has settled",
+"general joint-friendly asana as for OA/RA",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "6 Yoga Poses to Lower Uric Acid and Reduce Gout Risk",
+"url": "https://www.youtube.com/shorts/CUer89xAgrM"
+},
+{
+"title": "Therapeutic Yoga: Gout & Yoga",
+"url": "https://www.youtube.com/watch?v=XtAx1eL9Vg4"
+},
+{
+"title": "Swami Ramdev — 5 Yoga Asanas That Help Control Uric Acid",
+"url": "https://www.youtube.com/watch?v=U2YGQoytNX4"
+}
+]
+},
+{
+"conditionId": "CND_HYPOTHYROID",
+"condition": "Hypothyroidism",
+"specialty": "Endocrinology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Shoulder stand family and throat-area poses are traditionally taught, but are advanced/higher-risk (neck strain, contraindicated in cervical spine issues or hypertension) — Setu Bandhasana (bridge) is a gentler, safer alternative with similar throat-opening intent",
+"pranayama": "Ujjayi; Nadi Shodhana",
+"safetyNote": "Skip full shoulder stand / plough pose if you have neck problems, high blood pressure, or are a beginner — the safer bridge-pose alternative is listed above for a reason. Yoga supports wellbeing here; it does not replace thyroid hormone monitoring/medication.",
+"practiceNames": [
+"Shoulder stand family and throat-area poses are traditionally taught, but are advanced/higher-risk (neck strain, contraindicated in cervical spine issues or hypertension) — Setu Bandhasana (bridge) is a gentler, safer alternative with similar throat-opening intent",
+"Ujjayi",
+"Nadi Shodhana"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Beat Hypothyroidism Naturally with Yoga — Swami Mukundananda",
+"url": "https://www.youtube.com/shorts/zFcU09ex8Hw"
+},
+{
+"title": "Heal Your Thyroid with These Yoga Moves — Siddhi Yoga",
+"url": "https://www.youtube.com/shorts/5ucmUtCfA2I"
+},
+{
+"title": "Yoga for Thyroid — Thyroid Treatment at Home",
+"url": "https://www.youtube.com/shorts/zUJLFUDySAU"
+}
+]
+},
+{
+"conditionId": "CND_IBS",
+"condition": "Irritable bowel syndrome (IBS)",
+"specialty": "Gastroenterology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle twists (Ardha Matsyendrasana); Pawanmuktasana; Supta Baddha Konasana",
+"pranayama": "Diaphragmatic breathing; Nadi Shodhana (parasympathetic \"rest-and-digest\" support)",
+"safetyNote": "Go gently with twists during a flare — deep, forceful twisting can aggravate active bowel symptoms; ease in and stop if pain increases.",
+"practiceNames": [
+"Gentle twists (Ardha Matsyendrasana)",
+"Pawanmuktasana",
+"Supta Baddha Konasana",
+"Diaphragmatic breathing",
+"Nadi Shodhana (parasympathetic \"rest-and-digest\" support)"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "IBS or Irritable Bowel Syndrome? Try This Yoga Mudra",
+"url": "https://www.youtube.com/shorts/mnqAp6RkiTE"
+},
+{
+"title": "Gentle Yoga for Irritable Bowel Syndrome (IBS) Relief",
+"url": "https://www.youtube.com/watch?v=tH0rUVZRcQQ"
+},
+{
+"title": "Pawanmuktasana Series 1, 2, 3 (Bihar School of Yoga)",
+"url": "https://www.youtube.com/watch?v=A5PB5232gSc"
+}
+]
+},
+{
+"conditionId": "CND_ANKLE_SPRAIN",
+"condition": "Ligament sprain",
+"specialty": "Musculoskeletal",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Gentle restorative yoga (once acute pain has settled); Diaphragmatic breathing for pain modulation; Mindfulness meditation (Dhyana)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Gentle restorative yoga (once acute pain has settled)",
+"Diaphragmatic breathing for pain modulation",
+"Mindfulness meditation (Dhyana)"
+],
+"practiceDetail": [
+{
+"name": "Gentle restorative yoga (once acute pain has settled)",
+"note": "[Human RCTs, extrapolated] Meta-analysis of RCTs: yoga reduced pain/disability for chronic musculoskeletal pain generally — no dedicated acute-sprain trial found.",
+"evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0238544",
+"video": "Yoga For Lower Back Pain — Yoga With Adriene",
+"videoUrl": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"name": "Diaphragmatic breathing for pain modulation",
+"note": "[Preclinical / mechanistic] General autonomic pain-modulation mechanism, not sprain-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"name": "Mindfulness meditation (Dhyana)",
+"note": "[Meta-analysis, human RCTs] Meta-analysis of 30 RCTs: small reduction in pain across chronic pain conditions generally.",
+"evidenceUrl": "https://academic.oup.com/abm/article/51/2/199/4564147",
+"video": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"videoUrl": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+}
+],
+"videos": [
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"url": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"title": "Sprained Ankle Rehab",
+"url": "https://www.youtube.com/shorts/PJ_O_mqfC-0"
+},
+{
+"title": "Ankle Sprain Rehab",
+"url": "https://www.youtube.com/shorts/NxgQQWhVXvk"
+},
+{
+"title": "Ankle Sprain: Best Early Exercises for Ankle Pain",
+"url": "https://www.youtube.com/shorts/3hRGurXF5JA"
+}
+]
+},
+{
+"conditionId": "CND_SPINAL_STENOSIS",
+"condition": "Lumbar spinal stenosis",
+"specialty": "Spinal / Musculoskeletal",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Flexion-biased poses (knees-to-chest, seated forward fold, cat-cow favouring cat/flexion) — these typically ease stenosis symptoms more than extension (backbend) poses",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Avoid deep backbends/spinal extension, which can narrow the spinal canal further and worsen symptoms — flexion generally feels better in this specific condition, the opposite of general low back pain advice.",
+"practiceNames": [
+"Flexion-biased poses (knees-to-chest, seated forward fold, cat-cow favouring cat/flexion) — these typically ease stenosis symptoms more than extension (backbend) poses",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Top 5 Stretches for Low Back Pain & Stiffness",
+"url": "https://www.youtube.com/shorts/0tdboRdUjHg"
+},
+{
+"title": "Back Pain Relief: Why Stretching Feels Good, Explained",
+"url": "https://www.youtube.com/shorts/anCJCVmYBNw"
+},
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+}
+]
+},
+{
+"conditionId": "CND_MECHANICAL_BACK_PAIN",
+"condition": "Mechanical low back pain",
+"specialty": "Musculoskeletal",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Yoga asana practice; Mindfulness meditation (Vipassana); Diaphragmatic breathing / pranayama",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Yoga asana practice",
+"Mindfulness meditation (Vipassana)",
+"Diaphragmatic breathing / pranayama"
+],
+"practiceDetail": [
+{
+"name": "Yoga asana practice",
+"note": "[Cochrane review, human RCTs] Cochrane review (12 trials, 1,080 participants): low-to-moderate quality evidence yoga slightly improves back function/pain versus no exercise; no more effective than back-focused exercise.",
+"evidenceUrl": "https://www.cochrane.org/evidence/CD010671_yoga-chronic-non-specific-low-back-pain",
+"video": "Yoga For Lower Back Pain — Yoga With Adriene",
+"videoUrl": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"name": "Mindfulness meditation (Vipassana)",
+"note": "[Human study] Study specifically in chronic low back pain: mindfulness meditation was effective in symptom management.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2900099/",
+"video": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"videoUrl": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"name": "Diaphragmatic breathing / pranayama",
+"note": "[Preclinical / mechanistic] General autonomic pain-modulation mechanism.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+],
+"videos": [
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"title": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"url": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Back Pain Relief: Why Stretching Feels Good, Explained",
+"url": "https://www.youtube.com/shorts/anCJCVmYBNw"
+},
+{
+"title": "Top 5 Stretches for Low Back Pain & Stiffness",
+"url": "https://www.youtube.com/shorts/0tdboRdUjHg"
+},
+{
+"title": "4 Great Stretches For FAST Back Pain Relief",
+"url": "https://www.youtube.com/shorts/COswASjdnRo"
+}
+]
+},
+{
+"conditionId": "CND_MIGRAINE",
+"condition": "Migraine",
+"specialty": "Neurology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle neck/shoulder release; forward-fold-based rest poses (Balasana); avoid intense inversions during an active migraine",
+"pranayama": "Nadi Shodhana; Bhramari; slow diaphragmatic breathing",
+"safetyNote": "During an active migraine, rest in a quiet, dark space rather than practicing — these poses/breathing are for prevention and the post-migraine recovery period, not the acute attack itself.",
+"practiceNames": [
+"Gentle neck/shoulder release",
+"forward-fold-based rest poses (Balasana)",
+"avoid intense inversions during an active migraine",
+"Nadi Shodhana",
+"Bhramari",
+"slow diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "1 Asana for Headache & Migraine",
+"url": "https://www.youtube.com/shorts/bpEVqCy-oxI"
+},
+{
+"title": "Yoga For Migraines — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=QFkAl5wHEbg"
+},
+{
+"title": "Yoga for Your Headache — Gentle Practice for Migraine Relief",
+"url": "https://www.youtube.com/watch?v=p__23P_IqbU"
+}
+]
+},
+{
+"conditionId": "CND_MUSCLE_STRAIN",
+"condition": "Muscle strain",
+"specialty": "Musculoskeletal",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Gentle restorative yoga (once acute pain has settled); Diaphragmatic breathing for pain modulation; Mindfulness meditation (Dhyana)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Gentle restorative yoga (once acute pain has settled)",
+"Diaphragmatic breathing for pain modulation",
+"Mindfulness meditation (Dhyana)"
+],
+"practiceDetail": [
+{
+"name": "Gentle restorative yoga (once acute pain has settled)",
+"note": "[Human RCTs, extrapolated] Meta-analysis of RCTs: yoga reduced pain/disability for chronic musculoskeletal pain generally — no dedicated acute-strain trial found.",
+"evidenceUrl": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0238544",
+"video": "Yoga For Lower Back Pain — Yoga With Adriene",
+"videoUrl": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"name": "Diaphragmatic breathing for pain modulation",
+"note": "[Preclinical / mechanistic] General autonomic pain-modulation mechanism, not strain-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"name": "Mindfulness meditation (Dhyana)",
+"note": "[Meta-analysis, human RCTs] Meta-analysis of 30 RCTs: small reduction in pain across chronic pain conditions generally.",
+"evidenceUrl": "https://academic.oup.com/abm/article/51/2/199/4564147",
+"video": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"videoUrl": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+}
+],
+"videos": [
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"url": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"title": "Upper Trapezius Stretch For Instant Relief",
+"url": "https://www.youtube.com/shorts/qa2cYqdmHUg"
+},
+{
+"title": "Back Muscle Tension? Try This Stretch",
+"url": "https://www.youtube.com/shorts/GEu2664sj90"
+},
+{
+"title": "Fix Tight, Stiff, Painful Muscles With These 4 Stretches",
+"url": "https://www.youtube.com/shorts/iHzTkP5eyZM"
+}
+]
+},
+{
+"conditionId": "CND_OSA",
+"condition": "Obstructive sleep apnoea",
+"specialty": "Respiratory",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Not asana-based — oropharyngeal/myofunctional tongue-and-throat exercises are the yoga-adjacent practice with the most direct relevance",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "This supports, and never replaces, CPAP or a clinician-directed OSA treatment plan — myofunctional exercises are an adjunct with modest evidence, not a substitute for prescribed therapy.",
+"practiceNames": [
+"Not asana-based — oropharyngeal/myofunctional tongue-and-throat exercises are the yoga-adjacent practice with the most direct relevance",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "5 Tongue Exercises for Sleep Apnea",
+"url": "https://www.youtube.com/watch?v=vHRh0KPnSqU"
+},
+{
+"title": "Throat Exercises for Snoring and Sleep Apnoea (Myofunctional Therapy)",
+"url": "https://www.youtube.com/watch?v=2nq8YjWIIUI"
+},
+{
+"title": "Oral Exercises to Help with Snoring and Sleep Apnea",
+"url": "https://www.youtube.com/watch?v=bRE9FW99ZgM"
+}
+]
+},
+{
+"conditionId": "CND_OSTEOARTHRITIS",
+"condition": "Osteoarthritis (OA)",
+"specialty": "Rheumatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle knee/hip-focused stretches; Setu Bandhasana; supported Virasana; chair-assisted squats",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Work within a comfortable range, never into sharp joint pain. Strengthening around the joint (quads for knee OA) matters as much as stretching.",
+"practiceNames": [
+"Gentle knee/hip-focused stretches",
+"Setu Bandhasana",
+"supported Virasana",
+"chair-assisted squats",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Yoga for Knee Osteoarthritis",
+"url": "https://www.youtube.com/watch?v=esoy0mFtAvI"
+},
+{
+"title": "Yoga for Arthritis: Chair Yoga for Improved Mobility (Johns Hopkins Arthritis Center)",
+"url": "https://www.youtube.com/watch?v=yUnZzpX2KMw"
+},
+{
+"title": "Yoga for Osteoarthritis — Gentle Daily Stretches",
+"url": "https://www.youtube.com/watch?v=gFH4tUQW1Qg"
+}
+]
+},
+{
+"conditionId": "CND_PARKINSONS",
+"condition": "Parkinson's disease",
+"specialty": "Neurology",
+"source": "chronic",
+"cautionLevel": "CAUTION — fall risk",
+"asanas": "Seated or chair-supported practice; balance work only near a wall or sturdy chair; large, deliberate movements (PWR!-style) rather than small/subtle ones",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Fall risk is the central safety issue — never practice standing balance poses unsupported, especially early on. Ideally practice with a caregiver present or in a class specifically designed for Parkinson's (e.g. a Parkinson's Foundation program), not a generic class.",
+"practiceNames": [
+"Seated or chair-supported practice",
+"balance work only near a wall or sturdy chair",
+"large, deliberate movements (PWR!-style) rather than small/subtle ones",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Parkinson's Disease Yoga: Balance & Stability (Parkinson's Foundation)",
+"url": "https://www.youtube.com/watch?v=IQyI4nX_fUc"
+},
+{
+"title": "Parkinson's Disease Exercises: Gentle Yoga for Balance & Stability (Parkinson's Foundation)",
+"url": "https://www.youtube.com/watch?v=YTy5Ojj0Hhg"
+},
+{
+"title": "Core & Balance — Yoga for Parkinson's Series",
+"url": "https://www.youtube.com/watch?v=7SgyhH86U_Y"
+}
+]
+},
+{
+"conditionId": "CND_PAD",
+"condition": "Peripheral arterial disease",
+"specialty": "Vascular",
+"source": "chronic",
+"cautionLevel": "CAUTION",
+"asanas": "Gentle ankle pumps and leg circulation exercises; supervised walking (gold-standard, not yoga) remains the primary evidence-based therapy",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Yoga is adjunctive here, not primary — structured, supervised walking is the mainstay treatment. Balance activity with rest at the first sign of leg pain (claudication), never push through it, and get vascular clearance before starting any new activity.",
+"practiceNames": [
+"Gentle ankle pumps and leg circulation exercises",
+"supervised walking (gold-standard, not yoga) remains the primary evidence-based therapy",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Peripheral Arterial Disease and Chronic Venous Insufficiency — Exercises",
+"url": "https://www.youtube.com/shorts/wTaYDkSM0nI"
+},
+{
+"title": "3 Exercises a Vascular Surgeon Wants You to Do Daily for Better Leg Circulation",
+"url": "https://www.youtube.com/watch?v=xK_tH-ztCu0"
+},
+{
+"title": "Diaphragmatic Breathing Technique (Cleveland Clinic)",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+]
+},
+{
+"conditionId": "CND_PERIPHERAL_NEUROPATHY",
+"condition": "Peripheral neuropathy",
+"specialty": "Neurology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Setu Bandhasana (bridge); Viparita Karani (legs up the wall); gentle ankle/toe mobility",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Reduced sensation in the feet raises injury risk — check feet after practice for any unnoticed cuts or pressure marks, and avoid barefoot balance work on uneven or rough surfaces.",
+"practiceNames": [
+"Setu Bandhasana (bridge)",
+"Viparita Karani (legs up the wall)",
+"gentle ankle/toe mobility",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Relieve Peripheral Neuropathy in the Feet & Legs — Exercises",
+"url": "https://www.youtube.com/shorts/mr-l1A7dHtI"
+},
+{
+"title": "Yoga For Peripheral Neuropathy Relief — Setu Bandhasana / Viparita Karani",
+"url": "https://www.youtube.com/watch?v=r-VopO_OGBo"
+},
+{
+"title": "Diabetic Peripheral Neuropathy Exercises & Yoga",
+"url": "https://www.youtube.com/watch?v=6FFcQVxLnh8"
+}
+]
+},
+{
+"conditionId": "CND_PLANTAR_FASCIITIS",
+"condition": "Plantar fasciitis",
+"specialty": "Musculoskeletal",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Calf/plantar-fascia stretches; toe-spread and towel-scrunch foot exercises",
+"pranayama": "Diaphragmatic breathing",
+"safetyNote": "Morning stretching before the first steps of the day is when this typically helps most — stiffness and pain are usually worst first thing.",
+"practiceNames": [
+"Calf/plantar-fascia stretches",
+"toe-spread and towel-scrunch foot exercises",
+"Diaphragmatic breathing"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "1 Simple Stretch for Plantar Fasciitis Pain Relief",
+"url": "https://www.youtube.com/shorts/n4Ho8xG6qzY"
+},
+{
+"title": "Top 5 Stretches & Exercises for Plantar Fasciitis Pain",
+"url": "https://www.youtube.com/shorts/rSDtB4XOQfk"
+},
+{
+"title": "Plantar Fasciitis Stretches: Runner's Stretch",
+"url": "https://www.youtube.com/shorts/l2-5fwHhXAs"
+}
+]
+},
+{
+"conditionId": "CND_PMR",
+"condition": "Polymyalgia rheumatica",
+"specialty": "Rheumatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle shoulder/hip mobility; seated stretches; avoid anything ballistic",
+"pranayama": "Diaphragmatic breathing; Nadi Shodhana",
+"safetyNote": "Movement often helps stiffness, but this condition is usually on corticosteroids — watch for steroid-related bone fragility and avoid any high-impact or forceful stretch.",
+"practiceNames": [
+"Gentle shoulder/hip mobility",
+"seated stretches",
+"avoid anything ballistic",
+"Diaphragmatic breathing",
+"Nadi Shodhana"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Yoga for Arthritis — Chair Yoga for Improved Mobility (Johns Hopkins Arthritis Center)",
+"url": "https://www.youtube.com/watch?v=yUnZzpX2KMw"
+},
+{
+"title": "Gentle Yoga for Fibromyalgia — 10 Minute",
+"url": "https://www.youtube.com/watch?v=ZujgWC7JbUA"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_PSORIASIS",
+"condition": "Psoriasis",
+"specialty": "Dermatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "General stress-reduction-focused practice; avoid excessive sweating/friction over active plaques during a flare",
+"pranayama": "Diaphragmatic breathing; Bhramari",
+"safetyNote": "Stress is a recognised flare trigger, so the main value here is stress reduction, not a direct skin-clearing effect — treat this as a complement to prescribed topical/systemic treatment.",
+"practiceNames": [
+"General stress-reduction-focused practice",
+"avoid excessive sweating/friction over active plaques during a flare",
+"Diaphragmatic breathing",
+"Bhramari"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Psoriasis or Eczema or Dry Skin Problem? Try This Yoga Mudra",
+"url": "https://www.youtube.com/shorts/4uH_CB0AlSc"
+},
+{
+"title": "Yoga For Psoriasis Patients — Dr. Megha Chaturvedi",
+"url": "https://www.youtube.com/watch?v=EuEReOYqU4Q"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+}
+]
+},
+{
+"conditionId": "CND_RHEUMATOID",
+"condition": "Rheumatoid arthritis (RA)",
+"specialty": "Rheumatology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "Gentle chair yoga; seated cat-cow; ankle/wrist circles; supported Setu Bandhasana (bridge)",
+"pranayama": "Diaphragmatic breathing; Nadi Shodhana",
+"safetyNote": "Practice only in the stable, between-flare period — never a hot, swollen, actively-flaring joint. Prioritise range-of-motion over depth of stretch; stop at the first sign of joint pain, not after it.",
+"practiceNames": [
+"Gentle chair yoga",
+"seated cat-cow",
+"ankle/wrist circles",
+"supported Setu Bandhasana (bridge)",
+"Diaphragmatic breathing",
+"Nadi Shodhana"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "The Benefits of Yoga to Help Arthritis and Rheumatoid Arthritis",
+"url": "https://www.youtube.com/shorts/HNTGIcOrZNc"
+},
+{
+"title": "Simple Yoga Exercises for Rheumatoid Arthritis",
+"url": "https://www.youtube.com/watch?v=vvcaruIBNb8"
+},
+{
+"title": "Yoga for Arthritis — Chair Yoga for Improved Mobility (Johns Hopkins Arthritis Center)",
+"url": "https://www.youtube.com/watch?v=yUnZzpX2KMw"
+}
+]
+},
+{
+"conditionId": "CND_TENSION_HEADACHE",
+"condition": "Tension-type headache",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Yoga asana practice; Yoga-based breathing and relaxation; Mindfulness meditation (Dhyana)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Yoga asana practice",
+"Yoga-based breathing and relaxation",
+"Mindfulness meditation (Dhyana)"
+],
+"practiceDetail": [
+{
+"name": "Yoga asana practice",
+"note": "[Systematic review, human RCTs] Systematic review of RCTs for headache: yoga reduced headache intensity/frequency, though authors caution conclusions given trial number/size.",
+"evidenceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4540885/",
+"video": "Yoga For Lower Back Pain — Yoga With Adriene",
+"videoUrl": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"name": "Yoga-based breathing and relaxation",
+"note": "[Human RCT, extrapolated] RCT as adjunctive therapy for chronic migraine: reduced clinical symptoms and improved autonomic regulation — migraine evidence, extrapolated to tension headache.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0965229925001670",
+"video": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"name": "Mindfulness meditation (Dhyana)",
+"note": "[Meta-analysis, human RCTs] Meta-analysis of 30 RCTs: small reduction in pain across chronic pain conditions generally, including headache.",
+"evidenceUrl": "https://academic.oup.com/abm/article/51/2/199/4564147",
+"video": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"videoUrl": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+}
+],
+"videos": [
+{
+"title": "Yoga For Lower Back Pain — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=XeXz8fIZDCE"
+},
+{
+"title": "Nadi Shodhan Pranayam — with Gurudev Sri Sri Ravi Shankar — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=ml6NR3X23-8"
+},
+{
+"title": "Mindfulness Meditation for Pain Relief — Jon Kabat-Zinn (creator of MBSR)",
+"url": "https://www.youtube.com/watch?v=QCNXi_0lsCk"
+},
+{
+"title": "3 Points for Migraine Relief",
+"url": "https://www.youtube.com/shorts/h9vV0HkjtDw"
+},
+{
+"title": "Headache Relief With 3 Simple Acupressure Points",
+"url": "https://www.youtube.com/shorts/3xgoz726rP8"
+},
+{
+"title": "Acupressure Points for Headaches",
+"url": "https://www.youtube.com/shorts/a5cH-sEyw8E"
+}
+]
+},
+{
+"conditionId": "CND_T2DM",
+"condition": "Type 2 diabetes mellitus",
+"specialty": "Endocrinology",
+"source": "chronic",
+"cautionLevel": "Standard",
+"asanas": "General moderate asana practice (as tolerated); core/abdominal-engaging poses sometimes taught as \"pancreas-stimulating\" — framed here as general fitness benefit, not a specific glycaemic mechanism",
+"pranayama": "Kapalbhati (if no cardiac/retinal contraindication); Bhastrika; Nadi Shodhana",
+"safetyNote": "Check feet before and after practice if peripheral neuropathy is also present (reduced sensation raises injury risk). Avoid vigorous inverted/pressured abdominal poses if diabetic retinopathy is present — get an eye check first if that hasn't been done recently.",
+"practiceNames": [
+"General moderate asana practice (as tolerated)",
+"core/abdominal-engaging poses sometimes taught as \"pancreas-stimulating\" — framed here as general fitness benefit, not a specific glycaemic mechanism",
+"Kapalbhati (if no cardiac/retinal contraindication)",
+"Bhastrika",
+"Nadi Shodhana"
+],
+"practiceDetail": null,
+"videos": [
+{
+"title": "Type-2 Diabetes? Try This Fruit & Yoga Mudra",
+"url": "https://www.youtube.com/shorts/rHInDxWpWdI"
+},
+{
+"title": "Yoga for Diabetes — Shilpa Shetty",
+"url": "https://www.youtube.com/watch?v=tSC3N2P136Y"
+},
+{
+"title": "Yoga For Diabetes — Yoga With Adriene",
+"url": "https://www.youtube.com/watch?v=fmh58tykgpo"
+}
+]
+},
+{
+"conditionId": "CND_URTICARIA",
+"condition": "Urticaria",
+"specialty": "Dermatology",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Medical yoga for stress reduction; Diaphragmatic breathing / pranayama; Yoga Nidra (guided relaxation)",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Medical yoga for stress reduction",
+"Diaphragmatic breathing / pranayama",
+"Yoga Nidra (guided relaxation)"
+],
+"practiceDetail": [
+{
+"name": "Medical yoga for stress reduction",
+"note": "[Human RCT, extrapolated] RCT in primary-care patients with stress-related symptoms/diagnoses: yoga significantly reduced stress — stress can trigger/worsen urticaria, but this trial is not urticaria-specific.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3600293/",
+"video": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+},
+{
+"name": "Diaphragmatic breathing / pranayama",
+"note": "[Preclinical / mechanistic] General stress/autonomic-regulation mechanism, not urticaria-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"name": "Yoga Nidra (guided relaxation)",
+"note": "[Evidence gap, stated honestly] The literature's own conclusion is that direct RCT evidence linking yoga to urticaria improvement is sparse; cited here only for its established cortisol/stress-reduction effect.",
+"evidenceUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12080877/",
+"video": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"videoUrl": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+}
+],
+"videos": [
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "Yoga Nidra in English — Non-Sleep Deep Rest (NSDR) Meditation — Art of Living (Sri Sri Ravi Shankar)",
+"url": "https://www.youtube.com/watch?v=nP_n2KI5mYM"
+},
+{
+"title": "1 Minute Meditation for Quick Stress Relief",
+"url": "https://www.youtube.com/shorts/ZZ32AkPTA-Y"
+},
+{
+"title": "1 Minute Breathing Exercise for Anxiety and Stress",
+"url": "https://www.youtube.com/shorts/5XXxFrITiEM"
+},
+{
+"title": "1 Minute Breathing Exercise for Anxiety",
+"url": "https://www.youtube.com/shorts/TUL61tw9Kk4"
+}
+]
+},
+{
+"conditionId": "CND_VIRAL_PHARYNGITIS",
+"condition": "Viral pharyngitis",
+"specialty": "General practice",
+"source": "selfcare",
+"cautionLevel": null,
+"asanas": "Ujjayi pranayama; Bhramari pranayama (humming-bee breath); Gentle diaphragmatic breathing and rest",
+"pranayama": "",
+"safetyNote": null,
+"practiceNames": [
+"Ujjayi pranayama",
+"Bhramari pranayama (humming-bee breath)",
+"Gentle diaphragmatic breathing and rest"
+],
+"practiceDetail": [
+{
+"name": "Ujjayi pranayama",
+"note": "[Human RCT, extrapolated] Study in professional voice users: significant improvements in voice/throat acoustic parameters — voice-quality evidence, extrapolated to pharyngeal irritation.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947621001388",
+"video": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"videoUrl": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"name": "Bhramari pranayama (humming-bee breath)",
+"note": "[Systematic review, general] Reviewed autonomic/vagal effects — general evidence, not pharyngitis-specific.",
+"evidenceUrl": "https://openrepository.aut.ac.nz/server/api/core/bitstreams/1114377f-ef49-4802-9745-a312b072dd5e/content",
+"video": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"videoUrl": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"name": "Gentle diaphragmatic breathing and rest",
+"note": "[Preclinical / mechanistic] General pranayama autonomic-mechanism evidence, not pharyngitis-specific.",
+"evidenceUrl": "https://www.sciencedirect.com/science/article/pii/S0975947623001948",
+"video": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"videoUrl": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+}
+],
+"videos": [
+{
+"title": "Demonstration of Ujjayi Breath and Three-Stage Pranayama — Art of Living",
+"url": "https://www.youtube.com/watch?v=MaMaLwj0N6s"
+},
+{
+"title": "Bhramari Pranayama — Humming Bee Breathing — Art of Living Yoga",
+"url": "https://www.youtube.com/watch?v=zoQwZnW8nD8"
+},
+{
+"title": "Diaphragmatic Breathing Technique — Cleveland Clinic",
+"url": "https://www.youtube.com/watch?v=Mg2ar-7_HfA"
+},
+{
+"title": "How to do Bhramari Pranayama",
+"url": "https://www.youtube.com/shorts/asT03H4F7LM"
+},
+{
+"title": "Nadi Shodhana for Beginners — 3 Levels",
+"url": "https://www.youtube.com/shorts/CFX24XWi1lM"
+},
+{
+"title": "1 Minute Breathing Exercise for Anxiety and Stress",
+"url": "https://www.youtube.com/shorts/5XXxFrITiEM"
+}
+]
+}
+]

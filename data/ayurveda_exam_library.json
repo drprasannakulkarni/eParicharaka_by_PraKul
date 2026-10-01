@@ -1,0 +1,206 @@
+{
+"cardiovascular": {
+"srotas": "Rasavaha / Raktavaha Srotas (circulation)",
+"darshana": [
+"Nail bed and lip colour -- pallor or cyanosis",
+"Facial complexion (varna) -- pallor, dusky or flushed",
+"Neck veins for visible distension",
+"Ankles and sacrum for visible swelling",
+"Resting breathing effort and posture the patient chooses for comfort"
+],
+"sparshana": [
+"Radial and carotid pulse (nadi) -- rate, rhythm, volume, bilateral equality",
+"Skin temperature and moisture of the extremities -- warm/dry vs cold/clammy",
+"Praecordium -- locate and characterise the apex impulse",
+"Ankle and sacral area for pitting oedema"
+],
+"notes": "Pulse character (nadi pariksha) is examined here strictly as a physical-exam finding (rate/rhythm/volume), not as a dosha-diagnostic reading."
+},
+"respiratory": {
+"srotas": "Pranavaha Srotas (breath channel)",
+"darshana": [
+"Respiratory rate, rhythm and effort; use of accessory muscles",
+"Chest wall shape and symmetry of movement on breathing",
+"Lips and nail beds for cyanosis",
+"Sputum, if produced -- colour, consistency, quantity",
+"Ability to speak in full sentences without breathlessness"
+],
+"sparshana": [
+"Chest wall for tenderness and symmetry of expansion (hands on both sides of chest)",
+"Tactile fremitus over both lung fields",
+"Chest wall warmth in a febrile patient"
+],
+"notes": ""
+},
+"abdominal": {
+"srotas": "Annavaha / Purishavaha Srotas (digestion and elimination)",
+"darshana": [
+"Abdominal contour -- distension, visible peristalsis, asymmetry",
+"Tongue coating and moisture (jihva) as a general digestive-status indicator",
+"Skin and sclera for jaundice",
+"Stool character as reported/observed"
+],
+"sparshana": [
+"Light and deep palpation of all four quadrants for tenderness, guarding or masses",
+"Kostha (abdominal) warmth and tenderness on palpation",
+"Liver and spleen margins",
+"Rebound tenderness where peritonism is suspected"
+],
+"notes": ""
+},
+"neurological": {
+"srotas": "Majjavaha Srotas (nerve channel)",
+"darshana": [
+"Gait, posture, tremor or other involuntary movement",
+"Facial symmetry and speech clarity",
+"Level of alertness and orientation",
+"Eye movements and pupil symmetry"
+],
+"sparshana": [
+"Muscle tone and power on passive/active movement",
+"Deep tendon reflexes",
+"Sensation to light touch across the affected area",
+"Muscle bulk for wasting or spasticity"
+],
+"notes": ""
+},
+"musculoskeletal": {
+"srotas": "Asthivaha / Sandhivaha / Mamsavaha Srotas (bone, joint, muscle)",
+"darshana": [
+"Joint swelling, deformity, redness",
+"Gait and active range of movement",
+"Muscle bulk for wasting or asymmetry between sides"
+],
+"sparshana": [
+"Joint warmth, tenderness and effusion",
+"Passive range of motion and end-feel",
+"Tenderness along the muscle/tendon/ligament line"
+],
+"notes": ""
+},
+"vascular": {
+"srotas": "Raktavaha Srotas (blood vessels)",
+"darshana": [
+"Limb colour and venous prominence",
+"Ulceration or skin changes over the limb",
+"Swelling or size asymmetry between limbs"
+],
+"sparshana": [
+"Peripheral pulses bilaterally (dorsalis pedis, posterior tibial, popliteal as relevant)",
+"Capillary refill time",
+"Temperature asymmetry between limbs",
+"Calf tenderness"
+],
+"notes": ""
+},
+"eye": {
+"srotas": "Netra (Alochaka Pitta sthana)",
+"darshana": [
+"Conjunctival colour, redness, discharge",
+"Pupil size, shape and symmetry; scleral colour",
+"Eyelid swelling, ptosis or lid-margin change"
+],
+"sparshana": [
+"Gentle periorbital palpation for tenderness or swelling",
+"Gross globe firmness (very gentle, closed-lid palpation only)"
+],
+"notes": ""
+},
+"ent": {
+"srotas": "Karna-Nasa-Kantha (ear-nose-throat channels)",
+"darshana": [
+"Throat and tonsils for redness, exudate, swelling",
+"Nasal discharge -- colour and character",
+"Ear canal and tympanic membrane where an otoscope is available"
+],
+"sparshana": [
+"Cervical lymph nodes",
+"Sinuses for tenderness on light pressure",
+"Mastoid and pre-auricular region"
+],
+"notes": ""
+},
+"dermatological": {
+"srotas": "Twak (Bhrajaka Pitta sthana) / Raktavaha Srotas",
+"darshana": [
+"Lesion morphology, colour, distribution and margins",
+"Overall skin dryness or oiliness"
+],
+"sparshana": [
+"Lesion texture, temperature and tenderness",
+"Induration or fluctuance"
+],
+"notes": ""
+},
+"endocrine": {
+"srotas": "Medovaha Srotas (metabolic/fat channel)",
+"darshana": [
+"Body habitus and weight distribution",
+"Skin and hair changes; eye signs where relevant (e.g. thyroid)",
+"Neck contour for goitre"
+],
+"sparshana": [
+"Thyroid gland size, nodularity, mobility",
+"Skin texture and moisture",
+"Foot sensation where diabetic neuropathy is a concern"
+],
+"notes": ""
+},
+"urological": {
+"srotas": "Mutravaha Srotas (urinary channel)",
+"darshana": [
+"Urine colour/clarity if a sample is available",
+"Flank or suprapubic distension"
+],
+"sparshana": [
+"Renal angle tenderness",
+"Suprapubic region for bladder distension/tenderness"
+],
+"notes": ""
+},
+"obstetric": {
+"srotas": "Artavavaha Srotas (reproductive channel)",
+"darshana": [
+"Abdominal contour and pallor"
+],
+"sparshana": [
+"Gentle abdominal palpation for tenderness or masses, within the examiner's scope and training"
+],
+"notes": "Internal/speculum examination is outside the Darshana-Sparshana scope of this checklist and follows standard biomedical protocol only."
+},
+"mental_state": {
+"srotas": "Manovaha Srotas (mind channel)",
+"darshana": [
+"Demeanour, eye contact, psychomotor activity",
+"Speech rate, tone and content"
+],
+"sparshana": [
+"Not routinely applicable; pulse rate/character may be noted as a general anxiety correlate only"
+],
+"notes": ""
+},
+"paediatric": {
+"srotas": "Bala Pariksha (examination of the child)",
+"darshana": [
+"Activity level, feeding, hydration signs",
+"Work of breathing and colour"
+],
+"sparshana": [
+"Gentle palpation as tolerated by the child",
+"Fontanelle (in infants) for fullness or depression"
+],
+"notes": ""
+},
+"general": {
+"srotas": "Sarvanga Pariksha (general/systemic examination)",
+"darshana": [
+"Overall nourishment, complexion and hydration status",
+"General build and posture"
+],
+"sparshana": [
+"Skin temperature and moisture",
+"A general peripheral pulse check"
+],
+"notes": ""
+}
+}

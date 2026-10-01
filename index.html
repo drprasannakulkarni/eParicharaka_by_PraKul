@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="e-Paricharaka VPK — your nurse in the pocket, now showing a live Vata/Pitta/Kapha doshic-pattern reading alongside the guided symptom assessment, with self-care guidance, a nutrition-disease reference and a Yoga4U practice library.">
+<meta name="theme-color" content="#0f766e">
+<title>e-Paricharaka VPK — Your Nurse in the Pocket</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/components.css">
+<link rel="stylesheet" href="assets/tree.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🩺</text></svg>">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">🩺</span>
+      <div>
+        <h1>e-Paricharaka <span class="brand-tag">VPK</span></h1>
+        <p class="brand-sub">Your nurse in the pocket — with a live Vata/Pitta/Kapha reading, self-care, Ayurveda, Nutrition &amp; Yoga4U</p>
+      </div>
+    </div>
+    <div class="head-tools">
+      <button class="tool-btn" id="device-toggle" type="button"
+              aria-label="Switch between phone and laptop layout" title="Phone or laptop layout">
+        <span class="tool-icon" id="device-icon" aria-hidden="true">🖥️</span>
+        <span class="tool-label" id="device-label">Laptop</span>
+      </button>
+      <button class="tool-btn" id="clinician-toggle" type="button" aria-pressed="false"
+              aria-label="Toggle clinician mode" title="Clinician mode: show source and confidence detail behind each Ayurveda entity">
+        <span class="tool-icon" aria-hidden="true">⚕️</span>
+        <span class="tool-label">Clinician mode</span>
+      </button>
+      <button class="tool-btn icon-only" id="theme-toggle" type="button" aria-label="Switch colour theme">
+        <span class="tool-icon" aria-hidden="true">◐</span>
+      </button>
+    </div>
+  </div>
+  <nav class="tabs wrap" role="tablist" aria-label="Sections">
+    <button class="tab is-active" role="tab" data-view="check"          aria-selected="true">Check symptoms</button>
+    <button class="tab"           role="tab" data-view="redflags"       aria-selected="false">🚨 Red flags</button>
+    <button class="tab"           role="tab" data-view="playground"     aria-selected="false">Playground</button>
+    <button class="tab"           role="tab" data-view="symptoms"      aria-selected="false">Symptoms A–Z</button>
+    <button class="tab"           role="tab" data-view="conditions"     aria-selected="false">Conditions A–Z</button>
+    <button class="tab"           role="tab" data-view="ayurveda"       aria-selected="false">Ayurveda A–Z</button>
+    <button class="tab"           role="tab" data-view="nutrition4u"    aria-selected="false">Nutrition4U</button>
+    <button class="tab"           role="tab" data-view="yoga4u"         aria-selected="false">Yoga4U</button>
+    <button class="tab"           role="tab" data-view="investigations" aria-selected="false">Investigations</button>
+  </nav>
+</header>
+
+<main id="main" class="wrap" tabindex="-1">
+  <div id="view" aria-live="polite">
+    <div class="loading"><span class="spinner" aria-hidden="true"></span> Loading clinical data…</div>
+  </div>
+</main>
+
+<footer class="sitefoot">
+  <div class="wrap">
+    <p class="foot-note">
+      This tool provides information about possible causes of symptoms. It is not a diagnosis
+      and it cannot examine you. If you feel very unwell, or your symptoms are getting rapidly
+      worse, seek medical help immediately regardless of what this tool says.
+    </p>
+    <p class="foot-credit">
+      An AI Initiative from Dr.Prasanna Kulkarni
+      <a class="foot-mail" href="mailto:prasanna4ai@gmail.com">prasanna4ai@gmail.com</a>
+    </p>
+  </div>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

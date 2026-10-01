@@ -1,0 +1,40 @@
+# Static site: no build step, no dependencies. Netlify serves this folder as-is.
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    # style-src allows 'unsafe-inline' because the UI uses inline style attributes
+    # and an inline <style> in the body-map SVG; script-src stays strictly 'self'.
+    Content-Security-Policy = "default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'"
+
+# Clinical data is versioned by the build; let it cache but revalidate.
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Filenames are not content-hashed, so anything cached for a fixed period
+# strands users on stale code after an update. Revalidate instead: the ETag
+# makes an unchanged file a cheap 304, and a changed one lands immediately.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Single page: tabs are hash-routed, so everything resolves to index.html.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

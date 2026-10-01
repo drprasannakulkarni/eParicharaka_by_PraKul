@@ -1,0 +1,34 @@
+{
+  "zones": [
+    {
+      "id": "head", "label": "Head & Face", "hotspot": true, "drilldown": "face",
+      "sub": [
+        {"id": "eye",    "label": "Eyes",             "regions": ["eye"]},
+        {"id": "nose",   "label": "Nose",              "regions": ["nose"]},
+        {"id": "ear",    "label": "Ears",              "regions": ["ear"]},
+        {"id": "mouth",  "label": "Mouth & Throat",    "regions": ["throat"]},
+        {"id": "headgen","label": "Head (general)",    "regions": ["head"]}
+      ]
+    },
+    {"id": "chest", "label": "Chest", "hotspot": true, "regions": ["chest"]},
+    {"id": "torso", "label": "Abdomen, Pelvis & Back", "hotspot": true, "regions": ["abdomen", "pelvis", "back"]},
+    {
+      "id": "arm", "label": "Arms & Hands", "hotspot": true, "drilldown": "arm",
+      "sub": [
+        {"id": "shoulder", "label": "Shoulder",     "ccIds": ["EV_JOINT_PAIN", "EV_MUSCLE_ACHES"]},
+        {"id": "elbow",    "label": "Elbow",         "ccIds": ["EV_JOINT_PAIN", "EV_MUSCLE_ACHES"]},
+        {"id": "wrist",    "label": "Wrist & Hand",  "ccIds": ["EV_JOINT_PAIN", "EV_NUMBNESS", "EV_TREMOR", "EV_MUSCLE_ACHES"]}
+      ]
+    },
+    {
+      "id": "leg", "label": "Legs & Feet", "hotspot": true, "drilldown": "leg",
+      "sub": [
+        {"id": "hip",   "label": "Hip",          "ccIds": ["EV_JOINT_PAIN", "EV_BACK_PAIN", "EV_MUSCLE_ACHES"]},
+        {"id": "knee",  "label": "Knee",         "ccIds": ["EV_JOINT_PAIN", "EV_LEG_SWELLING", "EV_MUSCLE_ACHES"]},
+        {"id": "ankle", "label": "Ankle & Foot", "ccIds": ["EV_JOINT_PAIN", "EV_LEG_SWELLING", "EV_MUSCLE_ACHES", "EV_GAIT_DISTURBANCE"]}
+      ]
+    },
+    {"id": "skin",    "label": "Skin — anywhere on the body",   "hotspot": false, "regions": ["skin"]},
+    {"id": "general", "label": "General / whole-body symptoms", "hotspot": false, "regions": ["general"]}
+  ]
+}
