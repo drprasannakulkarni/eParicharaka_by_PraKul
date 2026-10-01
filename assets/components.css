@@ -562,3 +562,8 @@ body[data-device="phone"] .sdock-btn { width: 44px; height: 44px; }
 .about-modal-body p { font-size: .9rem; line-height: 1.6; color: var(--ink-2); margin-bottom: 12px; }
 .about-modal-body ul { padding-left: 20px; font-size: .88rem; line-height: 1.65; color: var(--ink-2); }
 .about-modal-body li { margin-bottom: 8px; }
+
+/* Shareera Darshana Anatomical Atlas View */
+.shareera-atlas-svg { max-width: 340px; margin: 0 auto; display: block; overflow: visible; }
+.bodymap-figure { width: 100%; max-width: 350px; margin: 0 auto; }
+.pin-kapha:hover text, .pin-pitta:hover text, .pin-vata:hover text { font-weight: 800; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
