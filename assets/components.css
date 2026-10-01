@@ -567,3 +567,86 @@ body[data-device="phone"] .sdock-btn { width: 44px; height: 44px; }
 .shareera-atlas-svg { max-width: 520px; margin: 0 auto; display: block; overflow: visible; }
 .bodymap-figure { width: 100%; max-width: 520px; margin: 0 auto; }
 .pin-kapha:hover text, .pin-pitta:hover text, .pin-vata:hover text { font-weight: 800; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
+
+/* ==========================================================================
+   Anatomical Body Map Cards - Theme-Aware Contrast System (Light & Dark)
+   ========================================================================== */
+.bodymap-card-bg {
+  fill: #ffffff;
+  stroke-width: 2.5px;
+  filter: drop-shadow(0 4px 12px rgba(0,0,0,0.15));
+  transition: all 0.2s ease;
+}
+
+.card-head .bodymap-card-bg  { stroke: #0d9488; }
+.card-ent .bodymap-card-bg   { stroke: #0284c7; }
+.card-arm .bodymap-card-bg   { stroke: #d97706; }
+.card-chest .bodymap-card-bg { stroke: #0284c7; }
+.card-heart .bodymap-card-bg { stroke: #dc2626; }
+.card-gut .bodymap-card-bg   { stroke: #ea580c; }
+.card-vata .bodymap-card-bg  { stroke: #2563eb; }
+
+.bodymap-card-title {
+  fill: #0f172a !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.2px;
+}
+
+.bodymap-card-sub {
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+}
+
+.card-head .bodymap-card-sub  { fill: #0f766e !important; }
+.card-ent .bodymap-card-sub   { fill: #0369a1 !important; }
+.card-arm .bodymap-card-sub   { fill: #b45309 !important; }
+.card-chest .bodymap-card-sub { fill: #0369a1 !important; }
+.card-heart .bodymap-card-sub { fill: #b91c1c !important; }
+.card-gut .bodymap-card-sub   { fill: #c2410c !important; }
+.card-vata .bodymap-card-sub  { fill: #1d4ed8 !important; }
+
+/* ---------------- Dark Mode Overrides (100% High Contrast Clarity) ---------------- */
+[data-theme="dark"] .bodymap-card-bg,
+:root:not([data-theme="light"]) .bodymap-card-bg {
+  fill: #1e293b !important;
+  filter: drop-shadow(0 6px 16px rgba(0,0,0,0.5)) !important;
+}
+
+[data-theme="dark"] .card-head .bodymap-card-bg  { stroke: #2dd4bf !important; }
+[data-theme="dark"] .card-ent .bodymap-card-bg   { stroke: #38bdf8 !important; }
+[data-theme="dark"] .card-arm .bodymap-card-bg   { stroke: #fbbf24 !important; }
+[data-theme="dark"] .card-chest .bodymap-card-bg { stroke: #38bdf8 !important; }
+[data-theme="dark"] .card-heart .bodymap-card-bg { stroke: #f87171 !important; }
+[data-theme="dark"] .card-gut .bodymap-card-bg   { stroke: #fb923c !important; }
+[data-theme="dark"] .card-vata .bodymap-card-bg  { stroke: #60a5fa !important; }
+
+[data-theme="dark"] .bodymap-card-title,
+:root:not([data-theme="light"]) .bodymap-card-title {
+  fill: #ffffff !important;
+}
+
+[data-theme="dark"] .card-head .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-head .bodymap-card-sub { fill: #5eead4 !important; }
+
+[data-theme="dark"] .card-ent .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-ent .bodymap-card-sub { fill: #7dd3fc !important; }
+
+[data-theme="dark"] .card-arm .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-arm .bodymap-card-sub { fill: #fde047 !important; }
+
+[data-theme="dark"] .card-chest .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-chest .bodymap-card-sub { fill: #7dd3fc !important; }
+
+[data-theme="dark"] .card-heart .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-heart .bodymap-card-sub { fill: #fca5a5 !important; }
+
+[data-theme="dark"] .card-gut .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-gut .bodymap-card-sub { fill: #ffedd5 !important; }
+
+[data-theme="dark"] .card-vata .bodymap-card-sub,
+:root:not([data-theme="light"]) .card-vata .bodymap-card-sub { fill: #93c5fd !important; }
+
+[data-theme="dark"] .bodymap-zone:hover .bodymap-card-bg {
+  filter: brightness(1.25) drop-shadow(0 0 12px currentColor) !important;
+}
