@@ -4,9 +4,12 @@ const cache = new Map();
 
 async function getJSON(path) {
   if (cache.has(path)) return cache.get(path);
-  const p = fetch(`data/${path}`, { cache: 'no-cache' }).then(r => {
+  const p = fetch(`data/${path}`).then(r => {
     if (!r.ok) throw new Error(`Could not load ${path} (${r.status})`);
     return r.json();
+  }).catch(err => {
+    cache.delete(path);
+    throw err;
   });
   cache.set(path, p);
   return p;
