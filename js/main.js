@@ -116,7 +116,6 @@ async function show(name) {
     history.replaceState(null, '', `#${name}`);
   }
 }
-}
 
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => show(tab.dataset.view));
