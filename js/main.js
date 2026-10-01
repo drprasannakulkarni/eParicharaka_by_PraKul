@@ -1,4 +1,4 @@
-﻿import { startWarming, stopWarming, warmOnIntent } from './preload.js';
+﻿import { startWarming, stopWarming, warmOnIntent } from './prefetch.js';
 import { mountScrollDock } from './scrolldock.js';
 import { openModal, esc } from './ui.js';
 
