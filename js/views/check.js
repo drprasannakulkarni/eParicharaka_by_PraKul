@@ -1,4 +1,4 @@
-/* The symptom interview: pick a complaint, answer an adaptive series of
+﻿/* The symptom interview: pick a complaint, answer an adaptive series of
  * questions, then a result that shows its working. */
 import { loadIndex, loadBundle, loadExamVideos, loadImagery, loadAyurvedaMap, loadAyurvedaExamLibrary, loadSelfCareRemedies, loadNutrition, loadSymptomRedirects, loadClassicalVpk, loadBodyMap, loadEvidence, loadConditions, loadAyurvedaSymptomsLite, groupBySystem } from '../data.js';
 import * as iv from '../interview.js';
@@ -40,13 +40,13 @@ async function renderPick(root) {
     <h2 class="section">What is troubling you most?</h2>
     <p class="lede">
       Choose the single symptom that bothers you most. You will be asked about the
-      others as we go — usually eight to fifteen questions, fewer when the picture
+      others as we go â€” usually eight to fifteen questions, fewer when the picture
       becomes clear early.
     </p>
     ${bodyMap ? `
       <div class="pick-mode-toggle" role="tablist" aria-label="How to find your symptom">
         <button type="button" class="tool-btn${pickMode === 'search' ? ' is-on' : ''}" data-mode="search" role="tab" aria-selected="${pickMode === 'search'}">🔍 Search by name</button>
-        <button type="button" class="tool-btn${pickMode === 'bodymap' ? ' is-on' : ''}" data-mode="bodymap" role="tab" aria-selected="${pickMode === 'bodymap'}">🧍 Tap on a body map</button>
+        <button type="button" class="tool-btn${pickMode === 'bodymap' ? ' is-on' : ''}" data-mode="bodymap" role="tab" aria-selected="${pickMode === 'bodymap'}">🩺 Tap on a body map</button>
       </div>` : ''}
     <div id="pick-area"></div>
   `;
@@ -121,8 +121,8 @@ async function renderPick(root) {
       const subCounts = Object.fromEntries(
         zone.sub.map(s => [s.id, subCcs(zone, s.id, index.chiefComplaints).length]));
       pickArea.innerHTML = `
-        <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">‹ Back to body map</button>
-        <p class="eyebrow" style="margin:0 0 10px">${esc(zone.label)} — tap the specific area</p>
+        <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">â€¹ Back to body map</button>
+        <p class="eyebrow" style="margin:0 0 10px">${esc(zone.label)} â€” tap the specific area</p>
         <div class="bodymap-layout">
           <div class="bodymap-figure bodymap-figure-closeup">${CLOSEUP_SVG[zone.drilldown](subCounts)}</div>
           <div class="bodymap-side">
@@ -147,7 +147,7 @@ async function renderPick(root) {
     const label = bodyMapSub ? zone.sub.find(s => s.id === bodyMapSub)?.label : zone.label;
     const backTarget = zone.drilldown && bodyMapSub ? 'sub' : 'zone';
     pickArea.innerHTML = `
-      <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">‹ Back</button>
+      <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">â€¹ Back</button>
       <p class="eyebrow" style="margin:0 0 10px">${esc(label || '')}</p>
       ${ccs.some(cc => bodyMapSub && ['EV_JOINT_PAIN', 'EV_MUSCLE_ACHES'].includes(cc.id)) ? `
         <p class="small muted" style="margin:0 0 12px">
@@ -193,7 +193,7 @@ async function renderPick(root) {
       const targets = hit ? hit.targets.map(id => ccById.get(id)).filter(Boolean) : [];
 
       list.innerHTML = `<div class="empty" style="text-align:left">
-        <p style="text-align:center">No symptom matches “${esc(term)}”.</p>
+        <p style="text-align:center">No symptom matches â€œ${esc(term)}â€.</p>
         ${hit ? `
           ${hit.safetyNote ? `
             <div class="flag flag-urgent">
@@ -201,7 +201,7 @@ async function renderPick(root) {
               <p class="act">${esc(hit.safetyNote)}</p>
             </div>` : ''}
           <p class="small" style="margin:10px 0 6px;text-align:center">
-            “${esc(hit.label)}” isn't its own topic here, but it's covered as part of:
+            â€œ${esc(hit.label)}â€ isn't its own topic here, but it's covered as part of:
           </p>
           <div class="cc-grid">
             ${targets.map(cc => `
@@ -259,7 +259,7 @@ function renderQuestion(root) {
   const q = currentQuestion;
   const p = iv.progress(session);
   const multi = q.kind === 'multi';
-  const hint = multi ? 'Select all that apply, or “none of these”.'
+  const hint = multi ? 'Select all that apply, or â€œnone of theseâ€.'
                      : 'Select one answer.';
   const shots = imagery?.questions?.[q.id] || {};
   const illustrated = Object.keys(shots).length > 0;
@@ -271,8 +271,8 @@ function renderQuestion(root) {
         <div class="qhead">
           <p class="eyebrow" style="margin:0">${esc(session.bundle.chiefComplaint.label)}</p>
           <span class="qcount">${p.pastTypical
-            ? `${p.asked + 1} — a closer case, still narrowing it down`
-            : `${p.asked >= p.min ? p.asked : p.asked + 1} of ~${p.min}–${p.max}`}</span>
+            ? `${p.asked + 1} â€” a closer case, still narrowing it down`
+            : `${p.asked >= p.min ? p.asked : p.asked + 1} of ~${p.min}â€“${p.max}`}</span>
         </div>
         <div class="bar"><div class="bar-fill" style="width:${Math.max(6, p.pct)}%"></div></div>
 
@@ -305,7 +305,7 @@ function renderQuestion(root) {
           <button class="btn btn-ghost" id="restart">Start over</button>
         </div>
         <p class="small muted" style="margin:10px 0 0">
-          Skipping leaves the question unanswered rather than answering “no”, so it
+          Skipping leaves the question unanswered rather than answering â€œnoâ€, so it
           counts neither for nor against anything.
         </p>
       </div>
@@ -525,8 +525,8 @@ async function renderResult(root) {
 
   root.innerHTML = `
     <div class="print-header">
-      <h2>e-Paricharaka VPK — Symptom Assessment Summary</h2>
-      <p>${esc(session.bundle.chiefComplaint.label)} · ${esc(new Date().toLocaleString())}</p>
+      <h2>e-Paricharaka VPK â€” Symptom Assessment Summary</h2>
+      <p>${esc(session.bundle.chiefComplaint.label)} Â· ${esc(new Date().toLocaleString())}</p>
       <p>Not a diagnosis. Generated by an automated symptom assessment; findings and doshic readings are
       model estimates pending clinical sign-off. An AI Initiative from Dr.Prasanna Kulkarni.</p>
     </div>
@@ -534,7 +534,7 @@ async function renderResult(root) {
     <div class="triage t-${res.triage.tone}">
       <span class="triage-icon" aria-hidden="true">${triageIcon(res.triage.tone)}</span>
       <div>
-        <h2>${esc(res.triage.label)} — ${esc(res.triage.window)}</h2>
+        <h2>${esc(res.triage.label)} â€” ${esc(res.triage.window)}</h2>
         <p>${esc(res.triage.action)}</p>
       </div>
     </div>
@@ -575,9 +575,9 @@ async function renderResult(root) {
       <ul class="reasons">
         ${support.length ? support.map(s => `
           <li>
-            <span class="tick tick-yes" aria-hidden="true">${s.direction === 'present' ? '✓' : '○'}</span>
+            <span class="tick tick-yes" aria-hidden="true">${s.direction === 'present' ? 'âœ“' : 'â—‹'}</span>
             <span>${esc(s.text)}</span>
-            <span class="lr-tag" title="Likelihood ratio">×${s.lr.toFixed(1)}</span>
+            <span class="lr-tag" title="Likelihood ratio">Ã—${s.lr.toFixed(1)}</span>
           </li>`).join('')
         : '<li><span class="muted">Too few answers to give specific reasons.</span></li>'}
       </ul>
@@ -621,12 +621,12 @@ async function renderResult(root) {
     ${renderAyurvedaCard(ayurvedaEntry, leadCond, ayurvedaExamLib, { classicalVpk, sessionVpk, symptomsLite, symIndex })}
 
     <div class="card" id="video-card">
-      <p class="eyebrow">Examination technique — video guides</p>
+      <p class="eyebrow">Examination technique â€” video guides</p>
       <p class="small muted" style="margin:0 0 14px">
         System-specific refreshers for the examination above. Search links are filtered
         to videos under four minutes.
       </p>
-      <div id="video-slots"><span class="muted small">Loading resources…</span></div>
+      <div id="video-slots"><span class="muted small">Loading resourcesâ€¦</span></div>
     </div>
 
     ${renderNextBest(session)}
@@ -662,7 +662,7 @@ async function renderResult(root) {
       await navigator.clipboard.writeText(caseSummary(session, res, leadCond, bundle, ayurvedaMap, classicalVpk, sessionVpk));
       note.textContent = 'Copied to clipboard.';
     } catch {
-      note.textContent = 'Clipboard blocked — use Download instead.';
+      note.textContent = 'Clipboard blocked â€” use Download instead.';
     }
     setTimeout(() => { note.textContent = ''; }, 4000);
   });
@@ -728,10 +728,10 @@ function renderSelfCareCard(entry, vpk) {
   if (!entry) return '';
   const cited = entry.evidenceCited !== false;
   const intro = cited
-    ? `${esc(entry.condition)} can usually be managed at home. What helps, from three angles —
-       conventional, Ayurveda, and Yoga — and when to see a doctor instead.`
+    ? `${esc(entry.condition)} can usually be managed at home. What helps, from three angles â€”
+       conventional, Ayurveda, and Yoga â€” and when to see a doctor instead.`
     : `${esc(entry.condition)} is a long-term condition. These are commonly-practised self-care
-       measures alongside your ongoing medical treatment — not a replacement for it — from three
+       measures alongside your ongoing medical treatment â€” not a replacement for it â€” from three
        angles: conventional, Ayurveda, and Yoga.`;
   return `
     <div class="card">
@@ -748,7 +748,7 @@ function renderSelfCareCard(entry, vpk) {
  * no nutrition database row (87 of 136 don't) or was gated out. */
 function renderNutritionCard(entry) {
   if (!entry) return '';
-  const intro = `Nutrients with a genuine, evidence-based role in managing ${esc(entry.condition)} —
+  const intro = `Nutrients with a genuine, evidence-based role in managing ${esc(entry.condition)} â€”
     adjuncts to your ongoing medical treatment, not a replacement for it.`;
   return `
     <div class="card card-nutrition">
@@ -765,7 +765,7 @@ function renderNutritionCard(entry) {
  * the Vata/Pitta/Kapha reading already shown above, which stands on its own
  * whether or not a name was ever settled on. */
 const CHARAKA_SUTRA_18_44 = {
-  devanagari: 'विकारनामाकुशलो न जिह्रीयात् कदाचन |\nन हि सर्वविकाराणां नामतोऽस्ति स्थितिर्ध्रुवा ||',
+  devanagari: 'à¤µà¤¿à¤•à¤¾à¤°à¤¨à¤¾à¤®à¤¾à¤•à¥à¤¶à¤²à¥‹ à¤¨ à¤œà¤¿à¤¹à¥à¤°à¥€à¤¯à¤¾à¤¤à¥ à¤•à¤¦à¤¾à¤šà¤¨ |\nà¤¨ à¤¹à¤¿ à¤¸à¤°à¥à¤µà¤µà¤¿à¤•à¤¾à¤°à¤¾à¤£à¤¾à¤‚ à¤¨à¤¾à¤®à¤¤à¥‹à¤½à¤¸à¥à¤¤à¤¿ à¤¸à¥à¤¥à¤¿à¤¤à¤¿à¤°à¥à¤§à¥à¤°à¥à¤µà¤¾ ||',
   translation: 'A physician should never feel ashamed or embarrassed at being unable to name a disease exactly -- there is no fixed rule that every manifestation of disease must have a definite name.',
   reference: 'Charaka Samhita, Sutrasthana 18/44',
 };
@@ -777,7 +777,7 @@ function charakaNoNameNoteHTML() {
                 border-radius:var(--r-sm)">
       <p style="margin:0 0 6px;font-family:var(--serif);white-space:pre-wrap">${esc(CHARAKA_SUTRA_18_44.devanagari)}</p>
       <p class="small muted" style="margin:0 0 4px">${esc(CHARAKA_SUTRA_18_44.translation)}</p>
-      <p class="small muted" style="margin:0;font-weight:600">— ${esc(CHARAKA_SUTRA_18_44.reference)}</p>
+      <p class="small muted" style="margin:0;font-weight:600">â€” ${esc(CHARAKA_SUTRA_18_44.reference)}</p>
     </blockquote>
     <p class="small muted" style="margin:8px 0 0">
       The Vata/Pitta/Kapha reading above still stands on its own, name or no name.
@@ -852,7 +852,7 @@ function renderAyurvedaCard(entry, leadCond, examLib, vpkCtx = {}) {
                  ${e.symptomMatched} of ${e.symptomTotal} classical symptoms for this entity match what you reported this session.
                </p>` : ''}
              <span class="small muted clinician-detail" style="display:block;margin-top:2px">
-               ${esc(e.source)} — ${esc(e.detail || '')}. Clinically reviewed by Dr. Prasanna Kulkarni.
+               ${esc(e.source)} â€” ${esc(e.detail || '')}. Clinically reviewed by Dr. Prasanna Kulkarni.
              </span>
              ${e.sloka ? `
                <blockquote class="small clinician-detail-block" style="margin:6px 0 0;padding:8px 12px;
@@ -879,7 +879,7 @@ function renderAyurvedaCard(entry, leadCond, examLib, vpkCtx = {}) {
     <div class="card card-ayurveda">
       <p class="eyebrow remedy-heading-ayurveda">Ayurveda perspective</p>
       <p class="small muted clinician-detail-block" style="margin:0 0 10px;font-style:italic">
-        Clinician mode — source and confidence detail shown inline below.
+        Clinician mode â€” source and confidence detail shown inline below.
       </p>
       ${entityBlock}
       ${examBlock ? `
@@ -938,7 +938,7 @@ function vpkSummaryLine(vpk) {
   const src = vpk.source === 'classical'
     ? `classical profile of "${vpk.entityName}", ${vpk.confidence} confidence`
     : `from the symptoms you reported this session`;
-  return ` — VPK Vata ${vpk.v}% / Pitta ${vpk.p}% / Kapha ${vpk.k}% (${src})`;
+  return ` â€” VPK Vata ${vpk.v}% / Pitta ${vpk.p}% / Kapha ${vpk.k}% (${src})`;
 }
 
 function caseSummary(session, res, leadCond, bundle, ayurvedaMap, classicalVpk, sessionVpk) {
@@ -948,13 +948,13 @@ function caseSummary(session, res, leadCond, bundle, ayurvedaMap, classicalVpk, 
   L.push(now.toLocaleString());
   L.push('');
   L.push(`Presenting complaint: ${session.bundle.chiefComplaint.label}`);
-  L.push(`Triage: ${res.triage.label} — ${res.triage.window}`);
+  L.push(`Triage: ${res.triage.label} â€” ${res.triage.window}`);
   L.push(`Action: ${res.triage.action}`);
   L.push('');
 
   if (res.redFlags.length) {
     L.push('RED FLAGS TRIGGERED');
-    for (const f of res.redFlags) L.push(`  [${f.level}] ${f.label} — ${f.action}`);
+    for (const f of res.redFlags) L.push(`  [${f.level}] ${f.label} â€” ${f.action}`);
     L.push('');
   }
 
@@ -965,7 +965,7 @@ function caseSummary(session, res, leadCond, bundle, ayurvedaMap, classicalVpk, 
   L.push('DIFFERENTIAL (share of shortlist)');
   res.ranked.slice(0, 5).forEach((r, i) => {
     const vpk = ayurvedaMap && classicalVpk ? vpkForCondition(r.id, ayurvedaMap, classicalVpk, sessionVpk) : null;
-    L.push(`  ${i + 1}. ${r.name} — ${(r.share * 100).toFixed(1)}%  [${r.triage.label}, ICD-10 ${r.icd10}]${vpkSummaryLine(vpk)}`);
+    L.push(`  ${i + 1}. ${r.name} â€” ${(r.share * 100).toFixed(1)}%  [${r.triage.label}, ICD-10 ${r.icd10}]${vpkSummaryLine(vpk)}`);
   });
   L.push('');
 
@@ -1000,13 +1000,13 @@ function caseSummary(session, res, leadCond, bundle, ayurvedaMap, classicalVpk, 
 
   L.push('INVESTIGATIONS');
   for (const l of leadCond.labs) {
-    L.push(`  [${l.tier}] ${l.test} — ${l.confirms}`);
+    L.push(`  [${l.tier}] ${l.test} â€” ${l.confirms}`);
   }
   L.push('');
   L.push('---');
   L.push('Generated by an automated symptom assessment. Not a diagnosis.');
   L.push('Findings, frequencies and doshic (Vata/Pitta/Kapha) readings are model estimates pending clinical sign-off.');
-  L.push('An AI Initiative from Dr.Prasanna Kulkarni — prasanna4ai@gmail.com');
+  L.push('An AI Initiative from Dr.Prasanna Kulkarni â€” prasanna4ai@gmail.com');
   return L.join('\n');
 }
 
@@ -1021,7 +1021,7 @@ export function renderLabs(labs) {
     if (!items.length) return '';
     return `
       <h4 class="eyebrow" style="margin:16px 0 8px">${esc(title)}
-        <span class="muted" style="font-weight:500;text-transform:none;letter-spacing:0"> — ${esc(note)}</span></h4>
+        <span class="muted" style="font-weight:500;text-transform:none;letter-spacing:0"> â€” ${esc(note)}</span></h4>
       <ul class="lab-list">
         ${items.map(l => `
           <li>
@@ -1036,17 +1036,17 @@ export function renderLabs(labs) {
 }
 
 export function renderVideoSystem(sys) {
-  const ICON = { search: '🔍', channel: '📺', guide: '📄' };
+  const ICON = { search: 'ðŸ”', channel: 'ðŸ“º', guide: 'ðŸ“„' };
   return `
     <h4 class="eyebrow" style="margin:16px 0 8px">${esc(sys.label)}
-      <span class="muted" style="font-weight:500;text-transform:none;letter-spacing:0"> — ${esc(sys.blurb)}</span></h4>
+      <span class="muted" style="font-weight:500;text-transform:none;letter-spacing:0"> â€” ${esc(sys.blurb)}</span></h4>
     <div class="vid-grid">
       ${sys.resources.map(r => `
         <a class="vid" href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">
-          <span class="vid-ico" aria-hidden="true">${ICON[r.kind] || '🔗'}</span>
+          <span class="vid-ico" aria-hidden="true">${ICON[r.kind] || 'ðŸ”—'}</span>
           <span>
             <span class="vid-t">${esc(r.title)}</span>
-            <span class="vid-s">${esc(r.source)} · ${esc(r.note)}</span>
+            <span class="vid-s">${esc(r.source)} Â· ${esc(r.note)}</span>
           </span>
         </a>`).join('')}
     </div>`;
@@ -1072,9 +1072,9 @@ function renderAlternative(bundle, alt, vpk) {
           <ul class="reasons">
             ${against.map(r => `
               <li>
-                <span class="tick tick-no" aria-hidden="true">✕</span>
+                <span class="tick tick-no" aria-hidden="true">âœ•</span>
                 <span>${esc(r.text)}</span>
-                <span class="lr-tag" title="Likelihood ratio">×${r.lr.toFixed(2)}</span>
+                <span class="lr-tag" title="Likelihood ratio">Ã—${r.lr.toFixed(2)}</span>
               </li>`).join('')}
           </ul>` : `
           <p class="small muted">Nothing you reported argues strongly against this. It ranks
@@ -1160,8 +1160,8 @@ function renderVpkBadge(vpk, { compact = false } = {}) {
     ? `classical: ${esc(vpk.entityName)}`
     : `from your symptoms`;
   const note = isClassical
-    ? `Classical doshic profile of “${esc(vpk.entityName)}” (${esc(vpk.confidence)} confidence) — see Cl_Decision_Tree_Symptom_Dataset_Integrative.xlsx's VPK_Methodology sheet.${esc(vpkMatchPhrase(vpk))}`
-    : `Estimated from the ${vpk.n} symptom${vpk.n === 1 ? '' : 's'} you answered — no confident classical match for this condition yet, so this is the SAME reading shown for every other unmatched condition here, not specific to this one`;
+    ? `Classical doshic profile of â€œ${esc(vpk.entityName)}â€ (${esc(vpk.confidence)} confidence) â€” see Cl_Decision_Tree_Symptom_Dataset_Integrative.xlsx's VPK_Methodology sheet.${esc(vpkMatchPhrase(vpk))}`
+    : `Estimated from the ${vpk.n} symptom${vpk.n === 1 ? '' : 's'} you answered â€” no confident classical match for this condition yet, so this is the SAME reading shown for every other unmatched condition here, not specific to this one`;
   return `
     <div class="vpk-badge${compact ? ' vpk-badge-compact' : ''}">
       <span class="vpk-chip is-vata">Vata ${vpk.v}%</span>
@@ -1175,5 +1175,9 @@ function renderVpkBadge(vpk, { compact = false } = {}) {
 const findCond = (bundle, id) => bundle.conditions.find(c => c.id === id);
 
 function triageIcon(tone) {
-  return { critical: '🚑', high: '⚠️', moderate: '📋', low: '🗓️', info: '🏠' }[tone] || '📋';
+  return { critical: 'ðŸš‘', high: 'âš ï¸', moderate: 'ðŸ“‹', low: 'ðŸ—“ï¸', info: 'ðŸ ' }[tone] || 'ðŸ“‹';
 }
+
+
+
+

@@ -1,4 +1,4 @@
-/* Small shared helpers. */
+﻿/* Small shared helpers. */
 import { SCHEMATICS, SKIN_TONES } from './imagery.js';
 
 /* A photograph wins when one has been supplied, because a real image beats a
@@ -11,7 +11,7 @@ export function figureHTML(spec, { caption = null, size = 'md' } = {}) {
         <img src="assets/photos/${esc(spec.photo.file)}" alt="${esc(spec.alt || '')}" loading="lazy">
         <figcaption>
           ${caption || spec.caption ? `<span>${esc(caption || spec.caption)}</span>` : ''}
-          <span class="fig-credit">${esc(spec.photo.credit)} · ${esc(spec.photo.licence)}</span>
+          <span class="fig-credit">${esc(spec.photo.credit)} Â· ${esc(spec.photo.licence)}</span>
         </figcaption>
       </figure>`;
   }
@@ -108,7 +108,7 @@ export function createCompareState(max = 4) {
 }
 
 /* Renders the chip row + action buttons for a createCompareState() -- one
- * chip per current selection (with its own ✕ to deselect) plus a trailing
+ * chip per current selection (with its own âœ• to deselect) plus a trailing
  * "+ Add another" chip while under the cap, so it's visually obvious you
  * can keep going past the first 2. `labelOf(id)` supplies each chip's text. */
 export function compareBarHTML(state, labelOf) {
@@ -120,7 +120,7 @@ export function compareBarHTML(state, labelOf) {
       ${state.selection.map(id => `
         <span class="compare-chip">
           ${esc(labelOf(id))}
-          <button type="button" class="compare-chip-x" data-remove="${esc(id)}" aria-label="Remove ${esc(labelOf(id))}">✕</button>
+          <button type="button" class="compare-chip-x" data-remove="${esc(id)}" aria-label="Remove ${esc(labelOf(id))}">âœ•</button>
         </span>`).join('')}
       ${state.selection.length < state.max
         ? `<button type="button" class="compare-chip compare-chip-add" id="compare-add">+ Add another</button>`
@@ -190,7 +190,7 @@ function renderPanel(html, backLabel) {
   const panel = modal.querySelector('.modal-panel');
   panel.innerHTML = `
     <button class="modal-close" aria-label="Close">✕</button>
-    ${backLabel ? `<button class="modal-back">‹ Back to ${esc(backLabel)}</button>` : ''}
+    ${backLabel ? `<button class="modal-back">← Back to ${esc(backLabel)}</button>` : ''}
     ${html}`;
   modal.hidden = false;
   document.body.style.overflow = 'hidden';
@@ -210,7 +210,7 @@ export function openModal(html, label = null) {
 
 /* Drills into a second detail panel from within the first, remembering how to
  * get back. `label` names what's being shown now (e.g. "Rheumatoid arthritis"),
- * so the *next* push (or the initial openModal's label) becomes the "‹ Back to
+ * so the *next* push (or the initial openModal's label) becomes the "â€¹ Back to
  * ..." text once the reader drills further. */
 export function pushModal(html, label) {
   ensureModal();
@@ -376,7 +376,7 @@ async function hydrateVideos(scope) {
     const all = await loadExamVideos();
     const wanted = slot.dataset.systems.split(',').filter(s => all[s]);
     if (!wanted.length) return;
-    slot.innerHTML = `<h4>Examination technique — video guides</h4>` +
+    slot.innerHTML = `<h4>Examination technique â€” video guides</h4>` +
                      wanted.map(s => renderVideoSystem(all[s])).join('');
   } catch { /* resources are a bonus; never break the panel over them */ }
 }
@@ -408,26 +408,26 @@ export function selfCareSectionHTML(entry, { intro } = {}) {
       <p class="small muted clinician-detail-block">${esc(r.note || '')}</p>
       <div class="chips" style="margin-top:6px">
         ${r.url || r.evidenceUrl ? `<a class="pill pill-info clinician-detail" href="${esc(r.url || r.evidenceUrl)}" target="_blank" rel="noopener">Evidence source ↗</a>` : ''}
-        ${showVideo && r.videoUrl ? `<a class="pill" href="${esc(r.videoUrl)}" target="_blank" rel="noopener">▶ Watch: ${esc(r.video || 'video')}</a>` : ''}
+        ${showVideo && r.videoUrl ? `<a class="pill" href="${esc(r.videoUrl)}" target="_blank" rel="noopener">â–¶ ▶ Watch: ${esc(r.video || 'video')}</a>` : ''}
       </div>
     </li>`;
 
   const courseLabel = cited ? 'Typically resolves' : 'Course';
-  const seekHeading = cited ? 'See a doctor instead if…' : 'Seek medical attention if…';
+  const seekHeading = cited ? 'See a doctor instead ifâ€¦' : 'Seek medical attention ifâ€¦';
 
   return `
     ${intro ? `<p class="small muted" style="margin:0 0 10px">${intro}</p>` : ''}
     <div class="chips" style="margin-bottom:6px">
       <span class="pill pill-low">${esc(courseLabel)}: ${esc(entry.evidence.recovery)}</span>
       <span class="pill ${cited ? 'pill-info' : ''}" title="${cited
-          ? 'Cochrane-review-backed — see Clinician mode for the citation.'
-          : 'Commonly-taught, practical guidance — not independently cited. See Clinician mode for detail per remedy below.'}">
-        ${cited ? '✓ Evidence-reviewed' : 'Not independently cited'}
+          ? 'Cochrane-review-backed â€” see Clinician mode for the citation.'
+          : 'Commonly-taught, practical guidance â€” not independently cited. See Clinician mode for detail per remedy below.'}">
+        ${cited ? 'âœ“ ✓ Evidence-reviewed' : 'Not independently cited'}
       </span>
     </div>
     ${cited ? `
       <p class="small muted clinician-detail-block" style="margin:0 0 10px; font-style:italic">
-        ${esc(entry.evidence.quote)} — <a href="${esc(entry.evidence.url)}" target="_blank" rel="noopener">${esc(entry.evidence.source)} ↗</a>
+        ${esc(entry.evidence.quote)} â€” <a href="${esc(entry.evidence.url)}" target="_blank" rel="noopener">${esc(entry.evidence.source)} â†—</a>
       </p>` : ''}
     <div class="flag" style="margin-bottom:16px">
       <h4>${esc(seekHeading)}</h4>
@@ -445,7 +445,7 @@ export function selfCareSectionHTML(entry, { intro } = {}) {
     ${entry.bonusShorts?.length ? `
       <p class="small muted" style="margin:10px 0 6px">More short practice videos:</p>
       <div class="chips">
-        ${entry.bonusShorts.map(s => s.url ? `<a class="pill" href="${esc(s.url)}" target="_blank" rel="noopener">▶ ${esc(s.title)}</a>` : '').join('')}
+        ${entry.bonusShorts.map(s => s.url ? `<a class="pill" href="${esc(s.url)}" target="_blank" rel="noopener">â–¶ ${esc(s.title)}</a>` : '').join('')}
       </div>` : ''}
 
     <p class="small muted" style="margin-top:16px">
@@ -483,10 +483,10 @@ export function nutritionSectionHTML(entry, { intro } = {}) {
       <p class="small muted">${esc(n.mechanism)}</p>
       <p class="small" style="margin:6px 0 0"><b>Recommended intake:</b> ${esc(n.dosage)}</p>
       <p class="small muted" style="margin:4px 0 0"><b>Food sources:</b> ${esc(n.foodSources)}</p>
-      ${n.caution ? `<p class="small muted" style="margin:4px 0 0">⚠ ${esc(n.caution)}</p>` : ''}
+      ${n.caution ? `<p class="small muted" style="margin:4px 0 0">âš  ${esc(n.caution)}</p>` : ''}
       <div class="chips clinician-detail-block" style="margin-top:6px">
         <span class="pill pill-info">${esc(n.evidenceTier)}</span>
-        ${n.url ? `<a class="pill" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)} ↗</a>` : `<span class="pill">${esc(n.source)}</span>`}
+        ${n.url ? `<a class="pill" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.source)} â†—</a>` : `<span class="pill">${esc(n.source)}</span>`}
       </div>
     </li>`;
 
@@ -498,3 +498,4 @@ export function nutritionSectionHTML(entry, { intro } = {}) {
       <a href="#nutrition4u">Nutrition4U</a> tab for the full nutrient-by-nutrient reference.
     </p>`;
 }
+
