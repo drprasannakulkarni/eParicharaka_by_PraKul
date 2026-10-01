@@ -6,6 +6,20 @@ import { mountScrollDock } from './scrolldock.js';
 /* Views load on demand. Importing all five up front shipped 45 KB of JavaScript
  * for four tabs the user had not opened yet, and delayed the one they were
  * looking at. The loaders are prefetched during idle instead. */
+
+/* Hub Mappings: 4 Core Hubs containing sub-views */
+const HUBS = {
+  check:        { name: 'check',        icon: '🩺', label: 'Check & Triage', sub: [{ id: 'check', label: '🩺 Symptom Checker' }, { id: 'redflags', label: '🚨 Red Flags' }] },
+  redflags:     { name: 'check',        icon: '🩺', label: 'Check & Triage', sub: [{ id: 'check', label: '🩺 Symptom Checker' }, { id: 'redflags', label: '🚨 Red Flags' }] },
+  ayurveda:     { name: 'library',      icon: '📚', label: 'Medical Library', sub: [{ id: 'ayurveda', label: '🌿 Ayurveda A–Z' }, { id: 'conditions', label: '📋 Conditions A–Z' }, { id: 'symptoms', label: '🔍 Symptoms A–Z' }] },
+  conditions:   { name: 'library',      icon: '📚', label: 'Medical Library', sub: [{ id: 'ayurveda', label: '🌿 Ayurveda A–Z' }, { id: 'conditions', label: '📋 Conditions A–Z' }, { id: 'symptoms', label: '🔍 Symptoms A–Z' }] },
+  symptoms:     { name: 'library',      icon: '📚', label: 'Medical Library', sub: [{ id: 'ayurveda', label: '🌿 Ayurveda A–Z' }, { id: 'conditions', label: '📋 Conditions A–Z' }, { id: 'symptoms', label: '🔍 Symptoms A–Z' }] },
+  nutrition4u:  { name: 'lifestyle',    icon: '🌿', label: 'Lifestyle & Therapy', sub: [{ id: 'nutrition4u', label: '🥗 Nutrition4U' }, { id: 'yoga4u', label: '🧘 Yoga4U' }] },
+  yoga4u:       { name: 'lifestyle',    icon: '🌿', label: 'Lifestyle & Therapy', sub: [{ id: 'nutrition4u', label: '🥗 Nutrition4U' }, { id: 'yoga4u', label: '🧘 Yoga4U' }] },
+  investigations: { name: 'tools',      icon: '🔬', label: 'Diagnostics & Tools', sub: [{ id: 'investigations', label: '🔬 Lab & Exams' }, { id: 'playground', label: '⚡ Decision Tree' }] },
+  playground:   { name: 'tools',        icon: '🔬', label: 'Diagnostics & Tools', sub: [{ id: 'investigations', label: '🔬 Lab & Exams' }, { id: 'playground', label: '⚡ Decision Tree' }] },
+};
+
 const VIEWS = {
   check:          () => import('./views/check.js'),
   redflags:       () => import('./views/redflags.js'),
@@ -49,7 +63,31 @@ async function show(name) {
   try {
     const mod = await viewModule(name);
     clearTimeout(slow);
+    
+    // Render view module
     await mod.render(root);
+
+    // Prepend Hub Sub-segment navigation switcher if sub-views exist
+    if (hubInfo && hubInfo.sub && hubInfo.sub.length > 1) {
+      const subNavHTML = `
+        <div class="hub-subnav" role="tablist" aria-label="${hubInfo.label}">
+          ${hubInfo.sub.map(s => `
+            <button class="hub-segment${s.id === name ? ' is-active' : ''}" data-subview="${s.id}" type="button" role="tab" aria-selected="${s.id === name}">
+              ${s.label}
+            </button>
+          `).join('')}
+        </div>`;
+      
+      const container = document.createElement('div');
+      container.innerHTML = subNavHTML;
+      const subNavElem = container.firstElementChild;
+      
+      subNavElem.querySelectorAll('[data-subview]').forEach(btn => {
+        btn.addEventListener('click', () => show(btn.dataset.subview));
+      });
+
+      root.insertBefore(subNavElem, root.firstElementChild);
+    }
   } catch (err) {
     clearTimeout(slow);
     console.error(err);

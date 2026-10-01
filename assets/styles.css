@@ -483,3 +483,46 @@ tr:last-child td { border-bottom: 0; }
   .print-header h2 { margin: 0 0 2px; font-size: 1.1rem; }
   .print-header p { margin: 2px 0 0; font-size: .8rem; }
 }
+
+/* ================================ Hub Sub-segment Switcher & Accordions === */
+.hub-subnav {
+  display: flex; gap: 6px; margin: 0 0 18px 0; background: var(--surface-2);
+  padding: 4px; border-radius: 12px; border: 1px solid var(--line);
+  overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+}
+.hub-subnav::-webkit-scrollbar { display: none; }
+.hub-segment {
+  flex: 1 0 auto; text-align: center; padding: 9px 14px; border-radius: 8px;
+  font: inherit; font-size: .84rem; font-weight: 550; cursor: pointer;
+  border: none; background: transparent; color: var(--ink-2); white-space: nowrap;
+  transition: background .15s, color .15s, box-shadow .15s;
+}
+.hub-segment:hover { color: var(--ink); }
+.hub-segment.is-active {
+  background: var(--surface); color: var(--brand); font-weight: 650;
+  box-shadow: var(--shadow);
+}
+
+.clinical-accordion {
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r-lg); margin-bottom: 14px; overflow: hidden;
+  box-shadow: var(--shadow); transition: border-color .15s;
+}
+.clinical-accordion[open] { border-color: var(--brand-wash); }
+.accordion-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 18px; font-weight: 650; font-size: .95rem; cursor: pointer;
+  list-style: none; user-select: none; background: var(--surface-2);
+  color: var(--ink); border-bottom: 1px solid transparent;
+}
+.accordion-head::-webkit-details-marker { display: none; }
+.clinical-accordion[open] .accordion-head {
+  border-bottom-color: var(--line-soft); background: var(--surface);
+}
+.accordion-title { display: flex; align-items: center; gap: 10px; }
+.accordion-icon { font-size: 1.1rem; }
+.accordion-chevron {
+  font-size: .8rem; color: var(--ink-3); transition: transform .2s ease;
+}
+.clinical-accordion[open] .accordion-chevron { transform: rotate(180deg); }
+.accordion-body { padding: 18px; }
