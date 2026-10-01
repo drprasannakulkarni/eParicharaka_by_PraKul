@@ -121,7 +121,7 @@ async function renderPick(root) {
       const subCounts = Object.fromEntries(
         zone.sub.map(s => [s.id, subCcs(zone, s.id, index.chiefComplaints).length]));
       pickArea.innerHTML = `
-        <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">â€¹ Back to body map</button>
+        <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">← Back</button>
         <p class="eyebrow" style="margin:0 0 10px">${esc(zone.label)} â€” tap the specific area</p>
         <div class="bodymap-layout">
           <div class="bodymap-figure bodymap-figure-closeup">${CLOSEUP_SVG[zone.drilldown](subCounts)}</div>
@@ -147,7 +147,7 @@ async function renderPick(root) {
     const label = bodyMapSub ? zone.sub.find(s => s.id === bodyMapSub)?.label : zone.label;
     const backTarget = zone.drilldown && bodyMapSub ? 'sub' : 'zone';
     pickArea.innerHTML = `
-      <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">â€¹ Back</button>
+      <button type="button" class="btn btn-ghost" id="bodymap-back" style="margin-bottom:14px">← Back</button>
       <p class="eyebrow" style="margin:0 0 10px">${esc(label || '')}</p>
       ${ccs.some(cc => bodyMapSub && ['EV_JOINT_PAIN', 'EV_MUSCLE_ACHES'].includes(cc.id)) ? `
         <p class="small muted" style="margin:0 0 12px">

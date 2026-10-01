@@ -27,8 +27,8 @@ body[data-clinician="on"] .clinician-detail-block { display: block; }
 /* 1.5x the picker's original 200px -- explicit width, not just a scale
    transform, so the larger figure gets genuinely more layout room rather
    than overlapping neighbouring content. */
-.bodymap-figure { flex: none; width: 300px; }
-.bodymap-figure-closeup { width: 260px; }
+.bodymap-figure { flex: 1 1 420px; max-width: 540px; width: 100%; }
+.bodymap-figure-closeup { width: 100%; max-width: 440px; }
 .bodymap-side { flex: 1 1 220px; min-width: 220px; display: flex; flex-direction: column; gap: 8px; }
 .bodymap-side-btn { justify-content: flex-start; text-align: left; }
 .bodymap-svg { width: 100%; height: auto; }
@@ -564,6 +564,6 @@ body[data-device="phone"] .sdock-btn { width: 44px; height: 44px; }
 .about-modal-body li { margin-bottom: 8px; }
 
 /* Shareera Darshana Anatomical Atlas View */
-.shareera-atlas-svg { max-width: 340px; margin: 0 auto; display: block; overflow: visible; }
-.bodymap-figure { width: 100%; max-width: 350px; margin: 0 auto; }
+.shareera-atlas-svg { max-width: 520px; margin: 0 auto; display: block; overflow: visible; }
+.bodymap-figure { width: 100%; max-width: 520px; margin: 0 auto; }
 .pin-kapha:hover text, .pin-pitta:hover text, .pin-vata:hover text { font-weight: 800; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
