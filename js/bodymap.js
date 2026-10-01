@@ -74,14 +74,27 @@ const hotspotAttrs = (id, label, count) =>
  * baked-in flat hex colours. */
 const SHADING_DEFS = `
   <defs>
-    <linearGradient id="bm-skin" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="var(--surface)" />
-      <stop offset="100%" stop-color="var(--surface-2)" />
+    <linearGradient id="bm-head-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4b5fd" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
-  </defs>
-  <style>
-    .bm-base { fill: url(#bm-skin); stroke: var(--line); stroke-width: 1.5; }
-  </style>`;
+    <linearGradient id="bm-chest-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67e8f9" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="bm-torso-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6ee7b7" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="bm-arm-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="bm-leg-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#93c5fd" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>`;
 
 /* Whole-body silhouette, front view, ~1.5x the size of the original simple
  * outline. Arms are now real hotspots (drilling into shoulder/elbow/wrist),
@@ -92,25 +105,25 @@ export function bodySilhouetteSVG(counts = {}) {
     <svg class="bodymap-svg" viewBox="0 0 240 480" xmlns="http://www.w3.org/2000/svg" aria-label="Tap a body area">
       ${SHADING_DEFS}
 
-      <g class="bodymap-zone bm-base" ${zone('arm', 'Arms & Hands')}>
+      <g class="bodymap-zone bm-arm-zone" ${zone('arm', 'Arms & Hands')}>
         <path d="M70 96 Q44 104 40 168 Q38 214 48 246 Q54 260 66 256 L74 250 Q64 214 68 172 Q70 130 82 104 Z" />
         <path d="M170 96 Q196 104 200 168 Q202 214 192 246 Q186 260 174 256 L166 250 Q176 214 172 172 Q170 130 158 104 Z" />
       </g>
 
-      <g class="bodymap-zone bm-base" ${zone('leg', 'Legs & Feet')}>
+      <g class="bodymap-zone bm-leg-zone" ${zone('leg', 'Legs & Feet')}>
         <path d="M82 272 L76 460 Q76 470 86 470 L100 470 Q108 470 108 460 L112 310 L112 272 Z" />
         <path d="M158 272 L164 460 Q164 470 154 470 L140 470 Q132 470 132 460 L128 310 L128 272 Z" />
       </g>
 
-      <g class="bodymap-zone bm-base" ${zone('chest', 'Chest')}>
+      <g class="bodymap-zone bm-chest-zone" ${zone('chest', 'Chest')}>
         <path d="M74 98 Q120 84 166 98 Q170 130 166 172 Q120 186 74 172 Q70 130 74 98 Z" />
       </g>
 
-      <g class="bodymap-zone bm-base" ${zone('torso', 'Abdomen, Pelvis & Back')}>
+      <g class="bodymap-zone bm-torso-zone" ${zone('torso', 'Abdomen, Pelvis & Back')}>
         <path d="M76 174 Q120 188 164 174 L158 258 Q120 274 82 258 Z" />
       </g>
 
-      <g class="bodymap-zone bm-base" ${zone('head', 'Head & Face')}>
+      <g class="bodymap-zone bm-head-zone" ${zone('head', 'Head & Face')}>
         <rect x="104" y="80" width="32" height="22" rx="8" />
         <circle cx="120" cy="46" r="34" />
       </g>

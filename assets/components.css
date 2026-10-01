@@ -520,3 +520,45 @@ body[data-device="phone"] .sdock-btn { width: 44px; height: 44px; }
   .sdock, .sdock-btn { transition: none; }
   .sdock-btn:hover { transform: none; }
 }
+
+/* ================================================= Vibrant Body Map Anatomy === */
+.bodymap-layout { display: flex; gap: 24px; align-items: flex-start; flex-wrap: wrap; }
+.bodymap-figure { flex: none; width: 260px; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.08)); }
+.bodymap-svg { width: 100%; height: auto; overflow: visible; }
+
+.bm-head-zone   { fill: url(#bm-head-grad); stroke: #8b5cf6; stroke-width: 1.8; cursor: pointer; transition: all .2s; }
+.bm-chest-zone  { fill: url(#bm-chest-grad); stroke: #06b6d4; stroke-width: 1.8; cursor: pointer; transition: all .2s; }
+.bm-torso-zone  { fill: url(#bm-torso-grad); stroke: #10b981; stroke-width: 1.8; cursor: pointer; transition: all .2s; }
+.bm-arm-zone    { fill: url(#bm-arm-grad); stroke: #f59e0b; stroke-width: 1.8; cursor: pointer; transition: all .2s; }
+.bm-leg-zone    { fill: url(#bm-leg-grad); stroke: #3b82f6; stroke-width: 1.8; cursor: pointer; transition: all .2s; }
+
+.bodymap-zone:hover, .bodymap-zone:focus-visible {
+  filter: brightness(1.18) drop-shadow(0 0 10px currentColor);
+  stroke-width: 2.5; outline: none;
+}
+.bodymap-zone:active { filter: brightness(1.3); }
+
+.bm-joint circle { fill: #fef3c7; stroke: #d97706; stroke-width: 2; stroke-dasharray: 4 2; }
+.bm-joint:hover circle { fill: #f59e0b; stroke: #b45309; stroke-dasharray: none; }
+.bm-feature { fill: #f3e8ff !important; stroke: #7c3aed; stroke-width: 1.8; }
+.bm-feature:hover { fill: #c4b5fd !important; }
+
+/* ================================================= Aligned Footer & Modal === */
+.sitefoot {
+  border-top: 1px solid var(--line); background: var(--surface);
+  padding: 24px 0 90px 0; margin-top: 40px; text-align: center;
+}
+.foot-inner { display: flex; flex-direction: column; gap: 14px; align-items: center; max-width: 760px; }
+.foot-disclaimer { font-size: .8rem; line-height: 1.55; color: var(--ink-3); margin: 0; }
+.foot-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; font-size: .88rem; color: var(--ink); }
+.foot-credit { margin: 0; }
+.foot-contact { margin: 0; }
+.foot-mail { color: var(--brand); font-weight: 650; text-decoration: none; }
+.foot-mail:hover { text-decoration: underline; }
+
+/* About Guide Modal */
+.about-modal-body { max-width: 680px; max-height: 80vh; overflow-y: auto; padding: 22px; }
+.about-modal-body h3 { font-size: 1.25rem; margin: 18px 0 8px 0; color: var(--brand); }
+.about-modal-body p { font-size: .9rem; line-height: 1.6; color: var(--ink-2); margin-bottom: 12px; }
+.about-modal-body ul { padding-left: 20px; font-size: .88rem; line-height: 1.65; color: var(--ink-2); }
+.about-modal-body li { margin-bottom: 8px; }

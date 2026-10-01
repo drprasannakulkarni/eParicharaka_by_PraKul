@@ -226,3 +226,42 @@ window.addEventListener('afterprint', () => {
     }
   });
 });
+
+/* About & How to Use Guide Modal */
+const aboutBtn = document.getElementById('about-btn');
+if (aboutBtn) {
+  aboutBtn.addEventListener('click', () => {
+    openModal(`
+      <div class="about-modal-body">
+        <h2>ℹ️ eParicharaka by PraKul</h2>
+        <p><b>Integrative Nurse &amp; Clinical Doshic Guide</b> — Designed by <b>Dr. Prasanna Kulkarni</b></p>
+        <hr style="border:0; border-top:1px solid var(--line-soft); margin: 14px 0;">
+
+        <h3>🩺 1. Guided Symptom Assessment &amp; Triage</h3>
+        <p>Search your chief complaint by name or tap an anatomical body zone. Answer adaptive clinical questions to generate a differential diagnosis ranked by probability and acuity (Urgent, Moderate, Low).</p>
+
+        <h3>⚖️ 2. Live VPK Doshic Reading</h3>
+        <p>Every clinical question you answer computes a real-time <b>Vata / Pitta / Kapha</b> doshic balance. View matched classical Ayurvedic profiles alongside biomedical findings.</p>
+
+        <h3>📚 3. Medical &amp; Ayurvedic Library</h3>
+        <ul>
+          <li><b>🌿 Ayurveda A–Z:</b> Classical disease entities, Nidana, Samprapti, Doshic affinity, and Sanskrit text sources.</li>
+          <li><b>📋 Conditions A–Z:</b> Complete clinical reference for differential diagnoses.</li>
+          <li><b>🔍 Symptoms A–Z:</b> Comprehensive symptom index and cross-references.</li>
+        </ul>
+
+        <h3>🥗 4. Lifestyle &amp; Therapeutic Recommendations</h3>
+        <ul>
+          <li><b>🥗 Nutrition4U:</b> Evidence-based Pathya-Apathya dietary guidance tailored to your diagnosis and dosha.</li>
+          <li><b>🧘 Yoga4U:</b> Therapeutic yoga practice routines, postures, and pranayama.</li>
+        </ul>
+
+        <h3>🔬 5. Diagnostics &amp; Decision Tree</h3>
+        <p>Inspect recommended laboratory tests, physical examination resources, and model decision trees.</p>
+
+        <h3>⚖️ 6. Clinician Mode</h3>
+        <p>Toggle <b>Clinician Mode</b> in the topbar to expose classical citations, Cochrane evidence links, and automated confidence tiers inline.</p>
+      </div>
+    `);
+  });
+}
