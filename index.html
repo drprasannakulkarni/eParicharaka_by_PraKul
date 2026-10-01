@@ -24,31 +24,19 @@
       <span class="brand-mark" aria-hidden="true">🩺</span>
       <div>
         <h1>eParicharaka <span class="brand-tag">by PraKul</span></h1>
-        <p class="brand-sub">Integrative Nurse &amp; Clinical Doshic Guide — Live VPK Analysis, Triage &amp; Classical Ayurveda</p>
       </div>
     </div>
     <div class="head-tools">
-      <button class="tool-btn" id="device-toggle" type="button"
-              aria-label="Switch between phone and laptop layout" title="Phone or laptop layout">
-        <span class="tool-icon" id="device-icon" aria-hidden="true">🖥️</span>
-        <span class="tool-label" id="device-label">Laptop</span>
-      </button>
       <button class="tool-btn" id="clinician-toggle" type="button" aria-pressed="false"
               aria-label="Toggle clinician mode" title="Clinician mode: show source and confidence detail behind each Ayurveda entity">
-        <span class="tool-icon" aria-hidden="true">⚕️</span>
-        <span class="tool-label">Clinician mode</span>
+        <span class="tool-icon" aria-hidden="true">⚖️</span>
+        <span class="tool-label">Clinician</span>
       </button>
       <button class="tool-btn icon-only" id="theme-toggle" type="button" aria-label="Switch colour theme">
         <span class="tool-icon" aria-hidden="true">◐</span>
       </button>
     </div>
   </div>
-  <nav class="tabs wrap" role="tablist" aria-label="Clinical Hubs">
-    <button class="tab is-active" role="tab" data-view="check"          aria-selected="true">🩺 Check &amp; Triage</button>
-    <button class="tab"           role="tab" data-view="ayurveda"       aria-selected="false">📚 Medical Library</button>
-    <button class="tab"           role="tab" data-view="nutrition4u"    aria-selected="false">🌿 Lifestyle &amp; Therapy</button>
-    <button class="tab"           role="tab" data-view="investigations" aria-selected="false">🔬 Diagnostics &amp; Tools</button>
-  </nav>
 </header>
 
 <main id="main" class="wrap" tabindex="-1">
@@ -56,6 +44,25 @@
     <div class="loading"><span class="spinner" aria-hidden="true"></span> Loading clinical data…</div>
   </div>
 </main>
+
+<nav class="bottom-nav" role="tablist" aria-label="Mobile Navigation Dock">
+  <button class="bnav-item is-active" role="tab" data-view="check" aria-selected="true">
+    <span class="bnav-icon" aria-hidden="true">🩺</span>
+    <span class="bnav-label">Check</span>
+  </button>
+  <button class="bnav-item" role="tab" data-view="ayurveda" aria-selected="false">
+    <span class="bnav-icon" aria-hidden="true">📚</span>
+    <span class="bnav-label">Library</span>
+  </button>
+  <button class="bnav-item" role="tab" data-view="nutrition4u" aria-selected="false">
+    <span class="bnav-icon" aria-hidden="true">🌿</span>
+    <span class="bnav-label">Lifestyle</span>
+  </button>
+  <button class="bnav-item" role="tab" data-view="investigations" aria-selected="false">
+    <span class="bnav-icon" aria-hidden="true">🔬</span>
+    <span class="bnav-label">Tools</span>
+  </button>
+</nav>
 
 <footer class="sitefoot">
   <div class="wrap">

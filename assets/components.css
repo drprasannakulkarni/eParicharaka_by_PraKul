@@ -509,7 +509,7 @@ body[data-device="phone"] main {
 
 /* Phone: sit a little tighter, and keep clear of the footer credit. */
 @media (max-width: 560px) {
-  .sdock { right: max(10px, env(safe-area-inset-right)); bottom: max(14px, env(safe-area-inset-bottom)); gap: 6px; }
+  .sdock { right: 12px; bottom: max(74px, calc(66px + env(safe-area-inset-bottom))); gap: 6px; }
   .sdock-btn { width: 38px; height: 38px; }
   .sdock-btn svg { width: 17px; height: 17px; }
 }

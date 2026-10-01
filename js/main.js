@@ -48,17 +48,14 @@ async function show(name) {
   const hubInfo = HUBS[name] || HUBS['check'];
 
   // Activate parent hub tab on topbar
-  document.querySelectorAll('.tab').forEach(t => {
-    const hubTarget = t.dataset.view;
-    const isHubActive = (hubTarget === 'check' && (name === 'check' || name === 'redflags')) ||
-                        (hubTarget === 'ayurveda' && (name === 'ayurveda' || name === 'conditions' || name === 'symptoms')) ||
-                        (hubTarget === 'nutrition4u' && (name === 'nutrition4u' || name === 'yoga4u')) ||
-                        (hubTarget === 'investigations' && (name === 'investigations' || name === 'playground'));
-    t.classList.toggle('is-active', isHubActive);
-    t.setAttribute('aria-selected', String(isHubActive));
-    if (isHubActive) {
-      t.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: 'smooth' });
-    }
+  document.querySelectorAll('.bnav-item, .tab').forEach(b => {
+    const target = b.dataset.view;
+    const isHubActive = (target === 'check' && (name === 'check' || name === 'redflags')) ||
+                        (target === 'ayurveda' && (name === 'ayurveda' || name === 'conditions' || name === 'symptoms')) ||
+                        (target === 'nutrition4u' && (name === 'nutrition4u' || name === 'yoga4u')) ||
+                        (target === 'investigations' && (name === 'investigations' || name === 'playground'));
+    b.classList.toggle('is-active', isHubActive);
+    b.setAttribute('aria-selected', String(isHubActive));
   });
 
   closeModal();
@@ -117,7 +114,7 @@ async function show(name) {
   }
 }
 
-document.querySelectorAll('.tab').forEach(tab => {
+document.querySelectorAll('.bnav-item, .tab').forEach(tab => {
   tab.addEventListener('click', () => show(tab.dataset.view));
 });
 
