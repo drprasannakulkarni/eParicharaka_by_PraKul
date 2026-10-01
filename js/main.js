@@ -45,12 +45,20 @@ let current = null;
 async function show(name) {
   if (!VIEWS[name]) name = 'check';
   current = name;
+  const hubInfo = HUBS[name] || HUBS['check'];
 
+  // Activate parent hub tab on topbar
   document.querySelectorAll('.tab').forEach(t => {
-    const on = t.dataset.view === name;
-    t.classList.toggle('is-active', on);
-    t.setAttribute('aria-selected', String(on));
-    if (on) t.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: 'smooth' });
+    const hubTarget = t.dataset.view;
+    const isHubActive = (hubTarget === 'check' && (name === 'check' || name === 'redflags')) ||
+                        (hubTarget === 'ayurveda' && (name === 'ayurveda' || name === 'conditions' || name === 'symptoms')) ||
+                        (hubTarget === 'nutrition4u' && (name === 'nutrition4u' || name === 'yoga4u')) ||
+                        (hubTarget === 'investigations' && (name === 'investigations' || name === 'playground'));
+    t.classList.toggle('is-active', isHubActive);
+    t.setAttribute('aria-selected', String(isHubActive));
+    if (isHubActive) {
+      t.scrollIntoView({ inline: 'nearest', block: 'nearest', behavior: 'smooth' });
+    }
   });
 
   closeModal();
@@ -107,6 +115,7 @@ async function show(name) {
   if (current_hash !== name && !current_hash.startsWith('az-')) {
     history.replaceState(null, '', `#${name}`);
   }
+}
 }
 
 document.querySelectorAll('.tab').forEach(tab => {
